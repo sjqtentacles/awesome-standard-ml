@@ -1,7 +1,22 @@
 {
   "org": "sjqtentacles",
-  "count": 242,
+  "count": 253,
   "repos": [
+    {
+      "name": "awesome-standard-ml",
+      "url": "https://github.com/sjqtentacles/awesome-standard-ml",
+      "description": "A curated list of Standard ML resources + an auto-generated index of the 240+ sjqtentacles sml-* ecosystem.",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Python"
+    },
     {
       "name": "sml-aead",
       "url": "https://github.com/sjqtentacles/sml-aead",
@@ -532,6 +547,25 @@
       "language": "Standard ML"
     },
     {
+      "name": "sml-checkers",
+      "url": "https://github.com/sjqtentacles/sml-checkers",
+      "description": "English draughts (checkers) with mandatory captures and search in pure Standard ML",
+      "topics": [
+        "alpha-beta",
+        "board-game",
+        "checkers",
+        "draughts",
+        "game-ai",
+        "gamedev",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
       "name": "sml-chem",
       "url": "https://github.com/sjqtentacles/sml-chem",
       "description": "Chemistry toolkit in pure Standard ML: periodic table, formula parser, molar mass, and stoichiometric equation balancing. Deterministic on MLton and Poly/ML.",
@@ -733,6 +767,25 @@
         "polyml",
         "pure",
         "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-connect4",
+      "url": "https://github.com/sjqtentacles/sml-connect4",
+      "description": "Connect Four engine with alpha-beta search in pure Standard ML",
+      "topics": [
+        "alpha-beta",
+        "board-game",
+        "connect-four",
+        "game-ai",
+        "gamedev",
+        "minimax",
+        "mlton",
+        "polyml",
         "sml",
         "standard-ml"
       ],
@@ -948,6 +1001,25 @@
         "sml",
         "smlpkg",
         "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-dice",
+      "url": "https://github.com/sjqtentacles/sml-dice",
+      "description": "RPG dice notation evaluator with exact distributions in pure Standard ML",
+      "topics": [
+        "combinatorial-game-theory",
+        "dice",
+        "gamedev",
+        "mlton",
+        "polyml",
+        "prng",
+        "rpg",
+        "sml",
+        "standard-ml",
+        "tabletop"
       ],
       "stars": 0,
       "language": "Standard ML"
@@ -1352,6 +1424,27 @@
         "soundex",
         "standard-ml",
         "string-matching"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-gametree",
+      "url": "https://github.com/sjqtentacles/sml-gametree",
+      "description": "Generic adversarial game-tree search (negamax/alpha-beta/PVS/IDAB) in pure Standard ML",
+      "topics": [
+        "alpha-beta",
+        "game-ai",
+        "game-tree",
+        "gamedev",
+        "iterative-deepening",
+        "minimax",
+        "mlton",
+        "negamax",
+        "polyml",
+        "pvs",
+        "sml",
+        "standard-ml"
       ],
       "stars": 0,
       "language": "Standard ML"
@@ -2108,6 +2201,25 @@
       "language": "Standard ML"
     },
     {
+      "name": "sml-mancala",
+      "url": "https://github.com/sjqtentacles/sml-mancala",
+      "description": "Kalah (Mancala) with sowing, captures, extra turns, and search in pure Standard ML",
+      "topics": [
+        "alpha-beta",
+        "board-game",
+        "game-ai",
+        "gamedev",
+        "kalah",
+        "mancala",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
       "name": "sml-markdown",
       "url": "https://github.com/sjqtentacles/sml-markdown",
       "description": "CommonMark-subset Markdown parser in pure Standard ML, rendering to an sml-html node tree (MLton + Poly/ML)",
@@ -2153,6 +2265,25 @@
         "mlton",
         "numerical-computing",
         "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-maze",
+      "url": "https://github.com/sjqtentacles/sml-maze",
+      "description": "Seeded maze generation (DFS/Prim/Kruskal/Wilson) and solving in pure Standard ML",
+      "topics": [
+        "gamedev",
+        "maze",
+        "maze-generation",
+        "mlton",
+        "polyml",
+        "procedural",
+        "procedural-generation",
+        "puzzle",
         "sml",
         "standard-ml"
       ],
@@ -2416,6 +2547,25 @@
       "language": "Standard ML"
     },
     {
+      "name": "sml-nim",
+      "url": "https://github.com/sjqtentacles/sml-nim",
+      "description": "Nim and Sprague-Grundy combinatorial game theory in pure Standard ML",
+      "topics": [
+        "combinatorial-game-theory",
+        "game-ai",
+        "gamedev",
+        "mlton",
+        "nim",
+        "polyml",
+        "puzzle",
+        "sml",
+        "sprague-grundy",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
       "name": "sml-nn",
       "url": "https://github.com/sjqtentacles/sml-nn",
       "description": "Neural networks in pure Standard ML on reverse-mode autodiff: dense layers, activations, MSE/CE, SGD/Adam",
@@ -2550,6 +2700,25 @@
         "standard-ml",
         "swagger",
         "yaml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-othello",
+      "url": "https://github.com/sjqtentacles/sml-othello",
+      "description": "Reversi/Othello engine with disc flipping and alpha-beta search in pure Standard ML",
+      "topics": [
+        "alpha-beta",
+        "board-game",
+        "game-ai",
+        "gamedev",
+        "mlton",
+        "othello",
+        "polyml",
+        "reversi",
+        "sml",
+        "standard-ml"
       ],
       "stars": 0,
       "language": "Standard ML"
@@ -2849,6 +3018,26 @@
         "sml",
         "standard-ml",
         "varint"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-puzzles",
+      "url": "https://github.com/sjqtentacles/sml-puzzles",
+      "description": "Classic puzzle solvers (N-Queens, Hanoi, Lights Out, Peg Solitaire) in pure Standard ML",
+      "topics": [
+        "backtracking",
+        "gamedev",
+        "lights-out",
+        "mlton",
+        "n-queens",
+        "polyml",
+        "puzzle",
+        "sliding-puzzle",
+        "sml",
+        "standard-ml",
+        "tower-of-hanoi"
       ],
       "stars": 0,
       "language": "Standard ML"
@@ -3911,6 +4100,26 @@
         "text-layout",
         "unicode",
         "word-wrap"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tictactoe",
+      "url": "https://github.com/sjqtentacles/sml-tictactoe",
+      "description": "m,n,k-game (tic-tac-toe / gomoku) with perfect-play search in pure Standard ML",
+      "topics": [
+        "board-game",
+        "game-ai",
+        "gamedev",
+        "gomoku",
+        "minimax",
+        "mlton",
+        "polyml",
+        "puzzle",
+        "sml",
+        "standard-ml",
+        "tic-tac-toe"
       ],
       "stars": 0,
       "language": "Standard ML"

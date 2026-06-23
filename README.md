@@ -39,6 +39,7 @@ ecosystem libraries depend on each other.
   - [Databases & storage](#databases--storage)
   - [GUI, terminal & application UI](#gui-terminal--application-ui)
   - [Text, Unicode & utilities](#text-unicode--utilities)
+  - [Misc](#misc)
 
 ## Compilers & runtimes
 
@@ -96,7 +97,7 @@ Related curated lists and package indexes.
 
 ## sjqtentacles ecosystem
 
-The [sjqtentacles](https://github.com/sjqtentacles) Standard ML ecosystem: 242 libraries.
+The [sjqtentacles](https://github.com/sjqtentacles) Standard ML ecosystem: 253 libraries.
 
 ### Developer tooling (SML self-tooling)
 
@@ -331,6 +332,7 @@ Graph, string, search and optimization algorithms not tied to a single data stru
 - [sml-dp](https://github.com/sjqtentacles/sml-dp) - Dynamic-programming toolkit in pure Standard ML: knapsack, LIS, coin change, matrix-chain, interval scheduling (MLton + Poly/ML).
 - [sml-fuzzy](https://github.com/sjqtentacles/sml-fuzzy) - Fuzzy string matching for Standard ML: Levenshtein/Damerau distance, similarity ranking, BK-tree, and Soundex. Pure, dual-compiler.
 - [sml-geom2d](https://github.com/sjqtentacles/sml-geom2d) - Constructive 2D computational geometry in pure Standard ML: convex hull, Delaunay triangulation, polygon clipping, area/centroid — deterministic and byte-identical on MLton and Poly/ML.
+- [sml-puzzles](https://github.com/sjqtentacles/sml-puzzles) - Classic puzzle solvers (N-Queens, Hanoi, Lights Out, Peg Solitaire) in pure Standard ML.
 - [sml-stringalgo](https://github.com/sjqtentacles/sml-stringalgo) - Classic string matching & analysis in pure Standard ML: KMP, Z-function, Boyer-Moore, Rabin-Karp, Aho-Corasick, Manacher (MLton + Poly/ML).
 - [sml-sudoku](https://github.com/sjqtentacles/sml-sudoku) - Deterministic 9x9 Sudoku constraint solver (candidate elimination + MRV backtracking) in pure Standard ML for MLton and Poly/ML.
 
@@ -370,11 +372,20 @@ Game-dev building blocks: ECS, AI, procedural generation, collision and cellular
 
 - [sml-automata](https://github.com/sjqtentacles/sml-automata) - Cellular automata in pure Standard ML: Wolfram elementary rules and Conway's Game of Life (MLton + Poly/ML).
 - [sml-bsp](https://github.com/sjqtentacles/sml-bsp) - Binary Space Partitioning dungeon generator with rooms and corridors in pure Standard ML.
+- [sml-checkers](https://github.com/sjqtentacles/sml-checkers) - English draughts (checkers) with mandatory captures and search in pure Standard ML.
 - [sml-chess](https://github.com/sjqtentacles/sml-chess) - Pure Standard ML chess core: fully legal move generation, perft, FEN, UCI, and a negamax search (MLton + Poly/ML).
+- [sml-connect4](https://github.com/sjqtentacles/sml-connect4) - Connect Four engine with alpha-beta search in pure Standard ML.
+- [sml-dice](https://github.com/sjqtentacles/sml-dice) - RPG dice notation evaluator with exact distributions in pure Standard ML.
 - [sml-ecs](https://github.com/sjqtentacles/sml-ecs) - Entity-Component-System (ECS) architecture with sparse component stores in pure Standard ML.
 - [sml-fov](https://github.com/sjqtentacles/sml-fov) - Recursive shadowcasting field-of-view and Bresenham line-of-sight for tile games in pure Standard ML.
 - [sml-fsm](https://github.com/sjqtentacles/sml-fsm) - Finite state machine and behavior tree for game AI in pure Standard ML.
+- [sml-gametree](https://github.com/sjqtentacles/sml-gametree) - Generic adversarial game-tree search (negamax/alpha-beta/PVS/IDAB) in pure Standard ML.
+- [sml-mancala](https://github.com/sjqtentacles/sml-mancala) - Kalah (Mancala) with sowing, captures, extra turns, and search in pure Standard ML.
+- [sml-maze](https://github.com/sjqtentacles/sml-maze) - Seeded maze generation (DFS/Prim/Kruskal/Wilson) and solving in pure Standard ML.
+- [sml-nim](https://github.com/sjqtentacles/sml-nim) - Nim and Sprague-Grundy combinatorial game theory in pure Standard ML.
+- [sml-othello](https://github.com/sjqtentacles/sml-othello) - Reversi/Othello engine with disc flipping and alpha-beta search in pure Standard ML.
 - [sml-roguelike](https://github.com/sjqtentacles/sml-roguelike) - Roguelike building blocks (Brogue-style flow maps, autotiling, deterministic seeded placement) on top of sml-astar, in pure Standard ML for MLton and Poly/ML.
+- [sml-tictactoe](https://github.com/sjqtentacles/sml-tictactoe) - m,n,k-game (tic-tac-toe / gomoku) with perfect-play search in pure Standard ML.
 - [sml-tween](https://github.com/sjqtentacles/sml-tween) - 30 easing functions and keyframe timeline tweening in pure Standard ML.
 
 ### Concurrency, effects & systems
@@ -424,4 +435,10 @@ Unicode handling, date/time, configuration, randomness and IDs.
 - [sml-random](https://github.com/sjqtentacles/sml-random) - Splittable deterministic PRNG (SplitMix64) for Standard ML: tokens, nonces, session IDs. Reproducible seeded streams. Pure, dual-compiler.
 - [sml-unicode](https://github.com/sjqtentacles/sml-unicode) - Unicode utilities for Standard ML: UTF-8/UTF-16 codecs, NFC/NFD normalization, case folding, grapheme segmentation, and display width. Pure, dual-compiler.
 - [sml-uuid](https://github.com/sjqtentacles/sml-uuid) - RFC 4122/9562 UUID parse, format, and generate for Standard ML (MLton + Poly/ML): v4 + v7, deterministic (caller-supplied randomness), I/O-free.
+
+### Misc
+
+Libraries that do not yet fit a category above.
+
+- [awesome-standard-ml](https://github.com/sjqtentacles/awesome-standard-ml) - A curated list of Standard ML resources + an auto-generated index of the 240+ sjqtentacles sml-* ecosystem.
 <!-- END GENERATED -->
