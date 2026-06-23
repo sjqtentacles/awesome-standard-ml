@@ -329,6 +329,33 @@ categories:
       - knuth-morris-pratt
       - string-matching
 
+  - title: Information retrieval & NLP
+    blurb: >-
+      Full-text search, ranking, tokenization, language models and
+      bioinformatics sequence tooling.
+    topics:
+      - information-retrieval
+      - full-text-search
+      - inverted-index
+      - search
+      - ranking
+      - tf-idf
+      - bm25
+      - nlp
+      - tokenizer
+      - subword
+      - byte-pair-encoding
+      - language-model
+      - ngram
+      - perplexity
+      - smoothing
+      - bioinformatics
+      - sequence-alignment
+      - fasta
+      - fastq
+      - needleman-wunsch
+      - smith-waterman
+
   - title: Formal methods & logic
     blurb: >-
       Theorem proving, model checking, SAT/SMT solving and decision diagrams.
@@ -452,6 +479,11 @@ categories:
       - gis
       - geojson
       - money
+      - finance
+      - combinatorics
+      - permutations
+      - combinations
+      - enumeration
       - constants
 
   - title: Data structures
@@ -755,6 +787,11 @@ categories:
       - pubsub
       - messaging
       - iot
+      - rate-limiting
+      - throttling
+      - token-bucket
+      - leaky-bucket
+      - sliding-window
 
   - title: Databases & storage
     blurb: Key-value stores, embedded databases and query engines.
@@ -855,3 +892,11 @@ overrides:
   sml-roguelike: Games & simulation
   # Markov chains are a stochastic-process / numerics topic here.
   sml-markov: Math, numeric & scientific
+  # crc32 topic pulls it into Encoding; it's a write-ahead log.
+  sml-wal: Databases & storage
+  # serializer topic pulls it into Encoding; it's config.
+  sml-ini: Text, Unicode & utilities
+  # hashing topic pulls it into Cryptography; it's distributed.
+  sml-consistenthash: Concurrency, effects & systems
+  # optimization topic pulls it into Math; it's a graph/network-flow algorithm.
+  sml-mincostflow: Algorithms

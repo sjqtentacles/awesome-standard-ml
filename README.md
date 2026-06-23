@@ -28,6 +28,7 @@ ecosystem libraries depend on each other.
   - [Encoding, serialization & compression](#encoding-serialization--compression)
   - [Web, networking & protocols](#web-networking--protocols)
   - [Parsing & languages](#parsing--languages)
+  - [Information retrieval & NLP](#information-retrieval--nlp)
   - [Formal methods & logic](#formal-methods--logic)
   - [Math, numeric & scientific](#math-numeric--scientific)
   - [Data structures](#data-structures)
@@ -97,7 +98,7 @@ Related curated lists and package indexes.
 
 ## sjqtentacles ecosystem
 
-The [sjqtentacles](https://github.com/sjqtentacles) Standard ML ecosystem: 253 libraries.
+The [sjqtentacles](https://github.com/sjqtentacles) Standard ML ecosystem: 288 libraries.
 
 ### Developer tooling (SML self-tooling)
 
@@ -117,6 +118,7 @@ The cluster of tools that operate on Standard ML itself: a frontend (lexer/parse
 - [sml-pretty](https://github.com/sjqtentacles/sml-pretty) - A Wadler/Leijen pretty-printer combinator library in pure Standard ML (group/nest/line, width-aware layout).
 - [sml-readline](https://github.com/sjqtentacles/sml-readline) - Pure Standard ML line-editor state machine: key model, ANSI decoder, history, kill-ring, completion hook (MLton + Poly/ML).
 - [sml-semver](https://github.com/sjqtentacles/sml-semver) - Pure Standard ML SemVer 2.0.0 parser, comparison, and range matching (MLton + Poly/ML, deterministic).
+- [sml-stlc](https://github.com/sjqtentacles/sml-stlc) - Simply-typed lambda calculus with Curry-Howard bridge to natural deduction, in pure SML.
 - [sml-test](https://github.com/sjqtentacles/sml-test) - A Standard ML test framework with property-based testing, QuickCheck-style generators, forAll, and shrinking.
 - [sml-tls-tool](https://github.com/sjqtentacles/sml-tls-tool) - Conformance and fuzzing harnesses for sml-tls: BoGo shim, tlsfuzzer driver, OpenSSL differential, AFL persistent-mode fuzzers. Impure, quarantined.
 
@@ -172,6 +174,7 @@ Bitcoin, Ethereum and related ledger/encoding primitives.
 Wire formats, text/binary codecs, structured-data parsers, and compression algorithms.
 
 - [sml-base32](https://github.com/sjqtentacles/sml-base32) - Pure Standard ML Base32 codec: RFC 4648, base32hex, Crockford, z-base-32 (MLton + Poly/ML).
+- [sml-bencode](https://github.com/sjqtentacles/sml-bencode) - BitTorrent bencode encoder/decoder in pure Standard ML with canonical dictionary ordering. Deterministic, MLton + Poly/ML.
 - [sml-cbor](https://github.com/sjqtentacles/sml-cbor) - CBOR (Concise Binary Object Representation) encoder/decoder in pure Standard ML (RFC 8949).
 - [sml-css](https://github.com/sjqtentacles/sml-css) - Typed CSS model in pure Standard ML: selector/declaration/stylesheet algebra with a deterministic serializer and a round-tripping parser. Dual-compiler (MLton + Poly/ML), byte-identical, zero deps.
 - [sml-csv](https://github.com/sjqtentacles/sml-csv) - A Standard ML RFC 4180 CSV/TSV parser and writer with full quoting and escaping.
@@ -250,10 +253,21 @@ Parsers, interpreters, term rewriting, logic programming and small language runt
 - [sml-vm](https://github.com/sjqtentacles/sml-vm) - A small stack-based bytecode VM, label-resolving assembler, and disassembler in pure Standard ML (MLton + Poly/ML).
 - [sml-wasm](https://github.com/sjqtentacles/sml-wasm) - Pure Standard ML WebAssembly toolkit: binary .wasm decoder, .wat text parser, and a stack-machine interpreter.
 
+### Information retrieval & NLP
+
+Full-text search, ranking, tokenization, language models and bioinformatics sequence tooling.
+
+- [sml-bio](https://github.com/sjqtentacles/sml-bio) - Bioinformatics toolkit in pure Standard ML: FASTA/FASTQ parsing, reverse complement, GC content, Needleman-Wunsch & Smith-Waterman alignment. MLton + Poly/ML.
+- [sml-bm25](https://github.com/sjqtentacles/sml-bm25) - Okapi BM25 / TF-IDF document ranking in pure Standard ML, built on an inverted index. Deterministic, MLton + Poly/ML.
+- [sml-bpe](https://github.com/sjqtentacles/sml-bpe) - Byte-pair encoding (BPE) subword tokenizer in pure Standard ML: train, encode, decode. Deterministic, MLton + Poly/ML.
+- [sml-invertedindex](https://github.com/sjqtentacles/sml-invertedindex) - Inverted index for full-text search in pure Standard ML: boolean queries (AND/OR/NOT) and positional phrase matching. Deterministic, MLton + Poly/ML.
+- [sml-ngram](https://github.com/sjqtentacles/sml-ngram) - N-gram language models in pure Standard ML with add-k and interpolated backoff smoothing; perplexity. Deterministic, MLton + Poly/ML.
+
 ### Formal methods & logic
 
 Theorem proving, model checking, SAT/SMT solving and decision diagrams.
 
+- [sml-argumentation](https://github.com/sjqtentacles/sml-argumentation) - Dung abstract argumentation frameworks: labelling and SAT engines in pure SML.
 - [sml-bdd](https://github.com/sjqtentacles/sml-bdd) - Reduced ordered binary decision diagrams (ROBDDs) with a hash-consing manager, in pure Standard ML (MLton + Poly/ML).
 - [sml-collision](https://github.com/sjqtentacles/sml-collision) - 2D AABB, circle, and SAT convex polygon collision detection in pure Standard ML.
 - [sml-logic](https://github.com/sjqtentacles/sml-logic) - Propositional logic toolkit: parser, truth tables, tautology/SAT/equivalence, NNF/CNF/DNF, in pure Standard ML (MLton + Poly/ML).
@@ -266,27 +280,36 @@ Theorem proving, model checking, SAT/SMT solving and decision diagrams.
 
 Arbitrary precision, linear algebra, statistics, signal processing, physics, astronomy and other numerics.
 
+- [sml-annealing](https://github.com/sjqtentacles/sml-annealing) - Generic simulated annealing optimizer in pure Standard ML with configurable cooling schedules (seeded PRNG). Deterministic, MLton + Poly/ML.
 - [sml-astro](https://github.com/sjqtentacles/sml-astro) - Astronomy basics in pure Standard ML: Julian/Modified Julian dates, a Newton Kepler-equation orbit solver, and low-precision solar position (declination, equation of time). Deterministic, byte-identical on MLton and Poly/ML.
 - [sml-autodiff](https://github.com/sjqtentacles/sml-autodiff) - Pure Standard ML automatic differentiation: forward (dual numbers) and reverse (tape) modes (MLton + Poly/ML, deterministic).
 - [sml-bigdecimal](https://github.com/sjqtentacles/sml-bigdecimal) - Arbitrary-precision decimal arithmetic for Standard ML (Java BigDecimal style), built on IntInf with explicit rounding modes. Portable, tested on MLton and Poly/ML.
 - [sml-chem](https://github.com/sjqtentacles/sml-chem) - Chemistry toolkit in pure Standard ML: periodic table, formula parser, molar mass, and stoichiometric equation balancing. Deterministic on MLton and Poly/ML.
 - [sml-cluster](https://github.com/sjqtentacles/sml-cluster) - Clustering in pure Standard ML: k-means (k-means++), DBSCAN, and hierarchical agglomerative clustering. Deterministic, byte-identical on MLton and Poly/ML.
+- [sml-combinatorics](https://github.com/sjqtentacles/sml-combinatorics) - Combinatorial enumeration and exact counting in pure Standard ML: permutations, combinations, partitions, Gray codes, Catalan/Stirling numbers (IntInf). MLton + Poly/ML.
 - [sml-complex](https://github.com/sjqtentacles/sml-complex) - Pure Standard ML complex numbers: arithmetic, exp/log/sqrt, powers, trig/hyperbolic and inverse functions, nth-roots, and polar form — deterministic across MLton and Poly/ML.
 - [sml-constants](https://github.com/sjqtentacles/sml-constants) - CODATA fundamental physical constants as typed, dimensioned quantities in pure Standard ML, built on sml-units (MLton + Poly/ML).
+- [sml-decisiontree](https://github.com/sjqtentacles/sml-decisiontree) - CART decision trees in pure Standard ML for classification and regression (Gini, entropy, variance). Deterministic, MLton + Poly/ML.
 - [sml-dsp](https://github.com/sjqtentacles/sml-dsp) - Frequency-domain DSP in pure Standard ML: windows, RBJ biquads, windowed-sinc FIR, IIR, FFT convolution, STFT/ISTFT (MLton + Poly/ML).
 - [sml-fft](https://github.com/sjqtentacles/sml-fft) - Fast Fourier Transform (FFT/IFFT, real-FFT, FFT convolution) for Standard ML. Radix-2 + Bluestein. Pure, dual-compiler.
+- [sml-ga](https://github.com/sjqtentacles/sml-ga) - Generic genetic algorithm optimizer in pure Standard ML: tournament selection, elitism, crossover, mutation (seeded PRNG). MLton + Poly/ML.
 - [sml-geo](https://github.com/sjqtentacles/sml-geo) - GeoJSON (RFC 7946) typed geometry model with parser, serializer, and bbox in pure Standard ML (MLton + Poly/ML).
 - [sml-geodesy](https://github.com/sjqtentacles/sml-geodesy) - WGS-84 geodesy in pure Standard ML: haversine, Vincenty geodesics, and UTM projection (MLton + Poly/ML).
 - [sml-glm](https://github.com/sjqtentacles/sml-glm) - Graphics linear algebra for Standard ML (MLton + Poly/ML): vec2/3/4, mat2/3/4, quaternions, transforms, projections. Column-major, OpenGL conventions, pure (no FFI).
+- [sml-hmm](https://github.com/sjqtentacles/sml-hmm) - Hidden Markov Models in pure Standard ML: forward/backward, Viterbi, Baum-Welch. Built on a matrix library. MLton + Poly/ML.
 - [sml-hungarian](https://github.com/sjqtentacles/sml-hungarian) - Assignment problem (Hungarian/Kuhn-Munkres) and Hopcroft-Karp bipartite matching in pure Standard ML, integer arithmetic (MLton + Poly/ML).
 - [sml-kalman](https://github.com/sjqtentacles/sml-kalman) - Linear Kalman filter and recursive least squares in pure Standard ML, over the vendored sml-matrix. Dual-compiler (MLton & Poly/ML), deterministic.
+- [sml-knn](https://github.com/sjqtentacles/sml-knn) - k-Nearest-Neighbors classification & regression in pure Standard ML, built on a k-d tree (majority vote / weighted averaging). MLton + Poly/ML.
 - [sml-markov](https://github.com/sjqtentacles/sml-markov) - Discrete-time Markov chains in pure Standard ML: n-step distributions, stationary distribution, and seeded trajectory sampling. Deterministic on MLton and Poly/ML.
 - [sml-matrix](https://github.com/sjqtentacles/sml-matrix) - A Standard ML dense linear algebra library: multiply, transpose, LU, determinant, solve, inverse, QR.
+- [sml-mcmc](https://github.com/sjqtentacles/sml-mcmc) - MCMC samplers in pure Standard ML: Metropolis-Hastings and Gibbs with seeded PRNG (no ambient randomness). Deterministic, MLton + Poly/ML.
+- [sml-money](https://github.com/sjqtentacles/sml-money) - Currency-aware money arithmetic in pure Standard ML on exact decimals: rounding modes and lossless allocation/splitting. MLton + Poly/ML.
 - [sml-montecarlo](https://github.com/sjqtentacles/sml-montecarlo) - Seeded Monte-Carlo integration and estimation in pure Standard ML: 1-D/box integration, antithetic variates, and a pi estimate. Deterministic on MLton and Poly/ML.
 - [sml-nbody](https://github.com/sjqtentacles/sml-nbody) - Barnes-Hut quadtree gravitational N-body in pure Standard ML: mass/center-of-mass quadtree, opening-angle force approximation, direct O(n^2) cross-check, symplectic leapfrog. Deterministic, byte-identical on MLton and Poly/ML.
 - [sml-nn](https://github.com/sjqtentacles/sml-nn) - Neural networks in pure Standard ML on reverse-mode autodiff: dense layers, activations, MSE/CE, SGD/Adam.
 - [sml-numbertheory](https://github.com/sjqtentacles/sml-numbertheory) - Pure Standard ML number theory: sieve, factorization, CRT, totient, Jacobi (MLton + Poly/ML).
 - [sml-ode](https://github.com/sjqtentacles/sml-ode) - Pure Standard ML ODE integrators: Euler, RK4, adaptive RK45 (MLton + Poly/ML).
+- [sml-pca](https://github.com/sjqtentacles/sml-pca) - Principal Component Analysis in pure Standard ML via Jacobi eigen-decomposition: components, explained variance, transform. MLton + Poly/ML.
 - [sml-pde](https://github.com/sjqtentacles/sml-pde) - Finite-difference PDE solvers (heat: FTCS + Crank-Nicolson; wave: leapfrog) on 1-D/2-D grids in pure Standard ML over sml-matrix. Dual-compiler (MLton & Poly/ML).
 - [sml-physics](https://github.com/sjqtentacles/sml-physics) - 2D rigid-body and particle physics in pure Standard ML: symplectic integrators (Verlet/leapfrog/semi-implicit Euler), projectile closed forms, and a bouncing rigid-body world. Deterministic, byte-identical on MLton and Poly/ML.
 - [sml-poly](https://github.com/sjqtentacles/sml-poly) - Univariate polynomials over an arbitrary ring for Standard ML, via a nesting Poly functor. Euclidean division and GCD over fields. Portable across MLton and Poly/ML.
@@ -295,8 +318,10 @@ Arbitrary precision, linear algebra, statistics, signal processing, physics, ast
 - [sml-specfun](https://github.com/sjqtentacles/sml-specfun) - Pure Standard ML special functions: gamma, beta, erf, incomplete gamma/beta (MLton + Poly/ML, deterministic).
 - [sml-stats](https://github.com/sjqtentacles/sml-stats) - Pure Standard ML statistics: descriptive stats, distributions, regression, correlation, and hypothesis tests (t / chi-square / F) — MLton + Poly/ML.
 - [sml-tensor](https://github.com/sjqtentacles/sml-tensor) - N-dimensional tensors in pure Standard ML: broadcasting, reshape/transpose, reductions, matmul, einsum.
+- [sml-tvm](https://github.com/sjqtentacles/sml-tvm) - Time value of money in pure Standard ML: PV, FV, NPV, IRR, PMT, amortization schedules. Deterministic, MLton + Poly/ML.
 - [sml-units](https://github.com/sjqtentacles/sml-units) - Runtime dimensional analysis for Standard ML: dimension-checked physical quantities over the SI base units. Portable across MLton and Poly/ML.
 - [sml-wav](https://github.com/sjqtentacles/sml-wav) - Pure Standard ML WAV I/O and synth/DSP: oscillators, ADSR, biquad filters (MLton + Poly/ML).
+- [sml-wkt](https://github.com/sjqtentacles/sml-wkt) - Well-Known Text (WKT) geometry parser & serializer in pure Standard ML, sharing the GeoJSON geometry AST. Deterministic, MLton + Poly/ML.
 
 ### Data structures
 
@@ -319,6 +344,7 @@ Trees, heaps, tries, maps, sets and other persistent/efficient containers.
 - [sml-rope](https://github.com/sjqtentacles/sml-rope) - Persistent rope data structure with Fibonacci rebalancing in pure Standard ML.
 - [sml-rtree](https://github.com/sjqtentacles/sml-rtree) - R-tree spatial index in pure Standard ML: quadratic-split insertion, window/containment/point-stab/nearest queries over rectangles. Deterministic, byte-identical on MLton and Poly/ML.
 - [sml-skiplist](https://github.com/sjqtentacles/sml-skiplist) - Probabilistic skip list ordered map and set functor in pure Standard ML.
+- [sml-timewheel](https://github.com/sjqtentacles/sml-timewheel) - Hierarchical timing wheel as a pure value in Standard ML: schedule, cancel, cascade, advance. Deterministic, MLton + Poly/ML.
 - [sml-treap](https://github.com/sjqtentacles/sml-treap) - Persistent seeded treap (randomized balanced BST) in pure Standard ML: insert/delete/split/merge, ordered map, invariant validators — deterministic and byte-identical on MLton and Poly/ML.
 - [sml-unionfind](https://github.com/sjqtentacles/sml-unionfind) - Disjoint-set / union-find (union by rank + path compression) for Standard ML. Pure, dual-compiler.
 - [sml-zipper](https://github.com/sjqtentacles/sml-zipper) - Generic list and rose-tree zippers in pure Standard ML (MLton + Poly/ML).
@@ -328,10 +354,12 @@ Trees, heaps, tries, maps, sets and other persistent/efficient containers.
 Graph, string, search and optimization algorithms not tied to a single data structure.
 
 - [sml-astar](https://github.com/sjqtentacles/sml-astar) - Generic A* and Dijkstra pathfinding with 2D grid support in pure Standard ML.
+- [sml-csolver](https://github.com/sjqtentacles/sml-csolver) - Finite-domain constraint solver (CSP) in pure Standard ML: AC-3 arc consistency + backtracking. N-queens, Sudoku. MLton + Poly/ML.
 - [sml-diff](https://github.com/sjqtentacles/sml-diff) - Myers O(ND) sequence diff for Standard ML: edit scripts, LCS, edit distance, and line-oriented text diffing. Portable across MLton and Poly/ML.
 - [sml-dp](https://github.com/sjqtentacles/sml-dp) - Dynamic-programming toolkit in pure Standard ML: knapsack, LIS, coin change, matrix-chain, interval scheduling (MLton + Poly/ML).
 - [sml-fuzzy](https://github.com/sjqtentacles/sml-fuzzy) - Fuzzy string matching for Standard ML: Levenshtein/Damerau distance, similarity ranking, BK-tree, and Soundex. Pure, dual-compiler.
 - [sml-geom2d](https://github.com/sjqtentacles/sml-geom2d) - Constructive 2D computational geometry in pure Standard ML: convex hull, Delaunay triangulation, polygon clipping, area/centroid — deterministic and byte-identical on MLton and Poly/ML.
+- [sml-mincostflow](https://github.com/sjqtentacles/sml-mincostflow) - Minimum-cost maximum-flow in pure Standard ML via successive shortest augmenting paths (SPFA). Cost-aware extension over a graph library. MLton + Poly/ML.
 - [sml-puzzles](https://github.com/sjqtentacles/sml-puzzles) - Classic puzzle solvers (N-Queens, Hanoi, Lights Out, Peg Solitaire) in pure Standard ML.
 - [sml-stringalgo](https://github.com/sjqtentacles/sml-stringalgo) - Classic string matching & analysis in pure Standard ML: KMP, Z-function, Boyer-Moore, Rabin-Karp, Aho-Corasick, Manacher (MLton + Poly/ML).
 - [sml-sudoku](https://github.com/sjqtentacles/sml-sudoku) - Deterministic 9x9 Sudoku constraint solver (candidate elimination + MRV backtracking) in pure Standard ML for MLton and Poly/ML.
@@ -394,26 +422,35 @@ Async runtimes, structured concurrency, effect handlers, FRP, resilience, observ
 
 - [sml-async](https://github.com/sjqtentacles/sml-async) - A portable, deterministic async library for Standard ML (scheduler + futures + async monad), running identically on MLton and Poly/ML.
 - [sml-circuit](https://github.com/sjqtentacles/sml-circuit) - Resilience primitives in pure Standard ML: circuit breaker, retry with backoff + jitter, rate limiter, bulkhead (MLton + Poly/ML).
+- [sml-consistenthash](https://github.com/sjqtentacles/sml-consistenthash) - Consistent hashing ring with virtual nodes in pure Standard ML (CRC32-based). Minimal remapping on membership change. MLton + Poly/ML.
 - [sml-crdt](https://github.com/sjqtentacles/sml-crdt) - A Standard ML library of state-based CRDTs: G-Counter, PN-Counter, LWW-Register, and OR-Set.
+- [sml-cron](https://github.com/sjqtentacles/sml-cron) - Cron expression parser & schedule calculator in pure Standard ML: next/prev firing times. Time is an input. MLton + Poly/ML.
 - [sml-csp](https://github.com/sjqtentacles/sml-csp) - CSP channels and structured concurrency in pure Standard ML on a deterministic virtual-time scheduler.
 - [sml-effects](https://github.com/sjqtentacles/sml-effects) - Algebraic effects and handlers (State/Reader/Writer/Exception/Nondet) via a free-monad tree in pure Standard ML.
+- [sml-gossip](https://github.com/sjqtentacles/sml-gossip) - SWIM-style gossip membership & failure detection simulated as a pure deterministic state machine in Standard ML (seeded PRNG). MLton + Poly/ML.
+- [sml-hlc](https://github.com/sjqtentacles/sml-hlc) - Hybrid logical clocks (HLC) in pure Standard ML: physical+logical timestamps with bounded drift. Physical time is an input. MLton + Poly/ML.
 - [sml-lens](https://github.com/sjqtentacles/sml-lens) - Concrete getter/setter optics (lenses, prisms, traversals, isos) in pure Standard ML.
 - [sml-log](https://github.com/sjqtentacles/sml-log) - Leveled structured logging for Standard ML with a pluggable sink (default deterministic string sink). Pure, dual-compiler (MLton + Poly/ML).
 - [sml-metrics](https://github.com/sjqtentacles/sml-metrics) - Prometheus-style counters, gauges, histograms + text exposition in pure Standard ML (MLton + Poly/ML).
 - [sml-raft](https://github.com/sjqtentacles/sml-raft) - Raft consensus as a pure deterministic state machine in Standard ML: leader election, log replication, commit quorum (MLton + Poly/ML).
+- [sml-ratelimit](https://github.com/sjqtentacles/sml-ratelimit) - Rate limiters as pure values in Standard ML: token bucket, leaky bucket, sliding window. Time is an input. MLton + Poly/ML.
 - [sml-recscheme](https://github.com/sjqtentacles/sml-recscheme) - Recursion schemes (cata/ana/para/hylo) over functor fixpoints in pure Standard ML.
 - [sml-signal](https://github.com/sjqtentacles/sml-signal) - Pure-SML functional reactive programming: deterministic time-varying signals and event streams (map/combine/foldp), no clock or FFI, byte-identical on MLton and Poly/ML.
 - [sml-stream](https://github.com/sjqtentacles/sml-stream) - Pure Standard ML lazy, fairly-interleaving streams (MLton + Poly/ML).
 - [sml-trace](https://github.com/sjqtentacles/sml-trace) - OpenTelemetry-aligned tracing in pure Standard ML: spans, W3C traceparent codec, OTLP/JSON export (MLton + Poly/ML).
 - [sml-transducer](https://github.com/sjqtentacles/sml-transducer) - Composable, fused transducers (map/filter/take/mapcat/dedupe) in pure Standard ML.
+- [sml-vectorclock](https://github.com/sjqtentacles/sml-vectorclock) - Vector clocks for causal ordering in distributed systems, pure Standard ML: tick, merge (LUB), and happens-before comparison. Deterministic, MLton + Poly/ML.
 
 ### Databases & storage
 
 Key-value stores, embedded databases and query engines.
 
 - [sml-kv](https://github.com/sjqtentacles/sml-kv) - A pure Standard ML log-structured key/value store model: append-only log, replay, compaction, length-prefixed serialization, and an SSTable binary-search block (MLton + Poly/ML).
+- [sml-mvcc](https://github.com/sjqtentacles/sml-mvcc) - Multi-version concurrency control store as a pure value in Standard ML: snapshot isolation, first-committer-wins, GC. MLton + Poly/ML.
+- [sml-pager](https://github.com/sjqtentacles/sml-pager) - Database buffer pool / page cache in pure Standard ML built on an LRU policy: dirty tracking, flush, eviction stats. MLton + Poly/ML.
 - [sml-sheet](https://github.com/sjqtentacles/sml-sheet) - A pure Standard ML spreadsheet engine: A1 addressing, recursive-descent formula parser, and dependency-ordered recalc with cycle detection (MLton + Poly/ML).
 - [sml-sql](https://github.com/sjqtentacles/sml-sql) - Pure in-memory SQL query engine (tokenizer + recursive-descent parser + evaluator) in Standard ML, no dependencies.
+- [sml-wal](https://github.com/sjqtentacles/sml-wal) - Write-ahead log as a pure value in Standard ML: CRC32-framed records, checkpointing, and crash-safe replay. Byte-identical on MLton + Poly/ML.
 - [sml-xlsx](https://github.com/sjqtentacles/sml-xlsx) - Pure Standard ML .xlsx (Office Open XML) reader/writer: sheets, shared strings, formulas.
 
 ### GUI, terminal & application UI
@@ -431,6 +468,7 @@ Unicode handling, date/time, configuration, randomness and IDs.
 - [sml-cli](https://github.com/sjqtentacles/sml-cli) - A Standard ML declarative command-line argument parser with subcommands and auto-generated help.
 - [sml-config](https://github.com/sjqtentacles/sml-config) - Typed config for Standard ML from a pure key/value source (env map / dotenv): required/optional/defaults with typed coercion. Pure, dual-compiler.
 - [sml-datetime](https://github.com/sjqtentacles/sml-datetime) - Civil date arithmetic for Standard ML (MLton + Poly/ML): leap years, epoch days, addDays/diffDays, dayOfWeek, ISO-8601. Branch-free days-from-civil.
+- [sml-ini](https://github.com/sjqtentacles/sml-ini) - INI configuration parser and serializer in pure Standard ML: sections, comments, quoted values, idempotent round-trip. MLton + Poly/ML.
 - [sml-prng](https://github.com/sjqtentacles/sml-prng) - Deterministic pseudo-random number generators for Standard ML (MLton + Poly/ML): SplitMix64, xoshiro256, PCG, uniform reals/ranges. Golden-vector tested, FFI-free.
 - [sml-random](https://github.com/sjqtentacles/sml-random) - Splittable deterministic PRNG (SplitMix64) for Standard ML: tokens, nonces, session IDs. Reproducible seeded streams. Pure, dual-compiler.
 - [sml-unicode](https://github.com/sjqtentacles/sml-unicode) - Unicode utilities for Standard ML: UTF-8/UTF-16 codecs, NFC/NFD normalization, case folding, grapheme segmentation, and display width. Pure, dual-compiler.
@@ -441,4 +479,7 @@ Unicode handling, date/time, configuration, randomness and IDs.
 Libraries that do not yet fit a category above.
 
 - [awesome-standard-ml](https://github.com/sjqtentacles/awesome-standard-ml) - A curated list of Standard ML resources + an auto-generated index of the 240+ sjqtentacles sml-* ecosystem.
+- [sml-fol](https://github.com/sjqtentacles/sml-fol) - First-order logic: parser, Skolemization, tableaux and resolution provers in pure SML.
+- [sml-modal](https://github.com/sjqtentacles/sml-modal) - Propositional modal logic (K/T/S4/S5): tableau and Kripke model engines in pure SML.
+- [sml-sequent](https://github.com/sjqtentacles/sml-sequent) - Gentzen LK/LJ sequent calculi for propositional logic in pure Standard ML: proof search, derivation checker, cut elimination (MLton + Poly/ML).
 <!-- END GENERATED -->
