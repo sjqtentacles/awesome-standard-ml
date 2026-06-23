@@ -30,6 +30,74 @@ def test_render_matches_golden(docs):
     assert generate.render(community, ecosystem, categories) == expected
 
 
+def test_slug():
+    assert generate._slug("Web, networking & protocols") == "web-networking--protocols"
+    assert generate._slug("Math, numeric & scientific") == "math-numeric--scientific"
+    assert generate._slug("sjqtentacles ecosystem") == "sjqtentacles-ecosystem"
+    assert (
+        generate._slug("Developer tooling (SML self-tooling)")
+        == "developer-tooling-sml-self-tooling"
+    )
+
+
+def _parse_toc_and_headings(text):
+    """Split rendered output into (toc_top, toc_nested, h2s, h3s).
+
+    toc_top/toc_nested are the link texts in the Contents list; h2s/h3s are the
+    body headings (excluding 'Contents'), in document order.
+    """
+    import re
+
+    lines = text.splitlines()
+    toc_top, toc_nested = [], []
+    h2s, h3s = [], []
+    in_toc = False
+    link_re = re.compile(r"\[(?P<text>[^\]]+)\]\(#(?P<anchor>[^)]+)\)")
+    for line in lines:
+        if line.strip() == "## Contents":
+            in_toc = True
+            continue
+        if line.startswith("## ") and line.strip() != "## Contents":
+            in_toc = False
+            h2s.append(line[3:].strip())
+            continue
+        if line.startswith("### "):
+            h3s.append(line[4:].strip())
+            continue
+        if in_toc:
+            m = link_re.search(line)
+            if not m:
+                continue
+            if line.startswith("  - "):
+                toc_nested.append((m.group("text"), m.group("anchor")))
+            elif line.startswith("- "):
+                toc_top.append((m.group("text"), m.group("anchor")))
+    return toc_top, toc_nested, h2s, h3s
+
+
+def test_toc_matches_headings(docs):
+    community, ecosystem, categories = docs
+    out = generate.render(community, ecosystem, categories)
+    toc_top, toc_nested, h2s, h3s = _parse_toc_and_headings(out)
+
+    # Contents is first heading.
+    assert out.lstrip().startswith("## Contents")
+
+    # Top-level TOC text == every body ## heading (excluding Contents), in order.
+    assert [t for t, _ in toc_top] == h2s
+    # Nested TOC text == every body ### heading, in order.
+    assert [t for t, _ in toc_nested] == h3s
+
+    # Every TOC anchor equals _slug() of its target heading text.
+    for text, anchor in toc_top + toc_nested:
+        assert anchor == generate._slug(text)
+
+    # No anchor is dangling: each points at a real heading.
+    heading_slugs = {generate._slug(h) for h in (h2s + h3s)}
+    for _text, anchor in toc_top + toc_nested:
+        assert anchor in heading_slugs
+
+
 def test_categorize_first_match_and_override(docs):
     _community, ecosystem, categories = docs
     buckets = generate.categorize(ecosystem["repos"], categories)

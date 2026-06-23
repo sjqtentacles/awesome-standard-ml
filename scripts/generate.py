@@ -63,6 +63,21 @@ def _escape_md(text: str) -> str:
     return text.replace("[", "\\[").replace("]", "\\]")
 
 
+def _slug(title: str) -> str:
+    """Replicate github-slugger's GFM anchor algorithm for a heading.
+
+    Lowercase, drop every character that is not a letter, number, space, or
+    hyphen, then turn each space into a hyphen. Repeated hyphens are NOT
+    collapsed (so `Web, networking & protocols` -> `web-networking--protocols`,
+    matching GitHub and awesome-lint's anchor checks).
+    """
+    out = []
+    for ch in title.lower():
+        if ch.isalnum() or ch in (" ", "-"):
+            out.append(ch)
+    return "".join(out).replace(" ", "-")
+
+
 def categorize(repos: list[dict], categories_doc: dict) -> dict[str, list[dict]]:
     """Bucket repos into categories.
 
@@ -126,10 +141,35 @@ def _render_entry(name: str, url: str, description: str) -> str:
 
 def render(community: dict, ecosystem: dict, categories_doc: dict) -> str:
     """Render the generated section (between markers) as a string (pure)."""
+    repos = ecosystem.get("repos", [])
+    buckets = categorize(repos, categories_doc)
+
+    community_sections = community.get("sections", []) or []
+    community_titles = [s["title"] for s in community_sections]
+
+    cat_meta = {c["title"]: c for c in categories_doc.get("categories", [])}
+    ordered_titles = [c["title"] for c in categories_doc.get("categories", [])]
+    if MISC_TITLE not in ordered_titles:
+        ordered_titles.append(MISC_TITLE)
+    # Only categories that actually have repos are rendered as headings.
+    rendered_categories = [t for t in ordered_titles if buckets.get(t)]
+
+    ecosystem_title = f"{ORG} ecosystem"
+
     lines: list[str] = []
 
+    # Table of contents (must mirror the body headings, in order).
+    lines.append("## Contents")
+    lines.append("")
+    for title in community_titles:
+        lines.append(f"- [{title}](#{_slug(title)})")
+    lines.append(f"- [{ecosystem_title}](#{_slug(ecosystem_title)})")
+    for title in rendered_categories:
+        lines.append(f"  - [{title}](#{_slug(title)})")
+    lines.append("")
+
     # Community sections (hand-curated).
-    for section in community.get("sections", []) or []:
+    for section in community_sections:
         lines.append(f"## {section['title']}")
         lines.append("")
         blurb = (section.get("blurb") or "").strip()
@@ -143,10 +183,7 @@ def render(community: dict, ecosystem: dict, categories_doc: dict) -> str:
         lines.append("")
 
     # Ecosystem catalog (auto-generated).
-    repos = ecosystem.get("repos", [])
-    buckets = categorize(repos, categories_doc)
-
-    lines.append(f"## {ORG} ecosystem")
+    lines.append(f"## {ecosystem_title}")
     lines.append("")
     lines.append(
         f"The [{ORG}](https://github.com/{ORG}) Standard ML ecosystem: "
@@ -154,15 +191,8 @@ def render(community: dict, ecosystem: dict, categories_doc: dict) -> str:
     )
     lines.append("")
 
-    cat_meta = {c["title"]: c for c in categories_doc.get("categories", [])}
-    ordered_titles = [c["title"] for c in categories_doc.get("categories", [])]
-    if MISC_TITLE not in ordered_titles:
-        ordered_titles.append(MISC_TITLE)
-
-    for title in ordered_titles:
+    for title in rendered_categories:
         repos_in = buckets.get(title, [])
-        if not repos_in:
-            continue
         lines.append(f"### {title}")
         lines.append("")
         blurb = (cat_meta.get(title, {}).get("blurb") or "").strip()

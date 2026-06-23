@@ -13,6 +13,33 @@ ecosystem libraries depend on each other.
 
 <!-- The section below is generated from data/ by scripts/generate.py. Do not edit by hand. -->
 <!-- BEGIN GENERATED -->
+## Contents
+
+- [Compilers & runtimes](#compilers--runtimes)
+- [Language standard & evolution](#language-standard--evolution)
+- [Learning resources](#learning-resources)
+- [Tooling (community)](#tooling-community)
+- [Editor support](#editor-support)
+- [Other lists & indexes](#other-lists--indexes)
+- [sjqtentacles ecosystem](#sjqtentacles-ecosystem)
+  - [Developer tooling (SML self-tooling)](#developer-tooling-sml-self-tooling)
+  - [Cryptography & security](#cryptography--security)
+  - [Blockchain & cryptocurrency](#blockchain--cryptocurrency)
+  - [Encoding, serialization & compression](#encoding-serialization--compression)
+  - [Web, networking & protocols](#web-networking--protocols)
+  - [Parsing & languages](#parsing--languages)
+  - [Formal methods & logic](#formal-methods--logic)
+  - [Math, numeric & scientific](#math-numeric--scientific)
+  - [Data structures](#data-structures)
+  - [Algorithms](#algorithms)
+  - [Graphics, geometry & imaging](#graphics-geometry--imaging)
+  - [Audio & music](#audio--music)
+  - [Games & simulation](#games--simulation)
+  - [Concurrency, effects & systems](#concurrency-effects--systems)
+  - [Databases & storage](#databases--storage)
+  - [GUI, terminal & application UI](#gui-terminal--application-ui)
+  - [Text, Unicode & utilities](#text-unicode--utilities)
+
 ## Compilers & runtimes
 
 Implementations of Standard ML you can actually run code with.

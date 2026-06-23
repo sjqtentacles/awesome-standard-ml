@@ -1,3 +1,14 @@
+## Contents
+
+- [Compilers & runtimes](#compilers--runtimes)
+- [sjqtentacles ecosystem](#sjqtentacles-ecosystem)
+  - [Developer tooling](#developer-tooling)
+  - [Cryptography & security](#cryptography--security)
+  - [Blockchain & cryptocurrency](#blockchain--cryptocurrency)
+  - [Web, networking & protocols](#web-networking--protocols)
+  - [Data structures](#data-structures)
+  - [Misc](#misc)
+
 ## Compilers & runtimes
 
 Implementations you can run.
