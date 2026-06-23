@@ -661,6 +661,34 @@ categories:
       - animation
       - tweening
       - easing
+      - minimax
+      - alpha-beta
+      - negamax
+      - game-tree
+      - transposition-table
+      - iterative-deepening
+      - pvs
+      - connect-four
+      - checkers
+      - draughts
+      - othello
+      - reversi
+      - nim
+      - sprague-grundy
+      - combinatorial-game-theory
+      - mancala
+      - kalah
+      - tic-tac-toe
+      - gomoku
+      - n-queens
+      - sliding-puzzle
+      - tower-of-hanoi
+      - lights-out
+      - maze
+      - maze-generation
+      - dice
+      - board-game
+      - backtracking
 
   - title: Concurrency, effects & systems
     blurb: >-
