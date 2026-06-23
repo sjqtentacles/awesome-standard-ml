@@ -1,0 +1,107 @@
+[
+  {
+    "name": "sml-sha256",
+    "description": "SHA-256 hashing in pure Standard ML.",
+    "repositoryTopics": [
+      { "name": "sml" },
+      { "name": "cryptography" },
+      { "name": "sha256" }
+    ],
+    "stargazerCount": 5,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": false,
+    "isFork": false
+  },
+  {
+    "name": "sml-fenwick",
+    "description": "Fenwick (binary indexed) tree.",
+    "repositoryTopics": [
+      { "name": "data-structures" },
+      { "name": "fenwick-tree" },
+      { "name": "mlton" }
+    ],
+    "stargazerCount": 2,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": false,
+    "isFork": false
+  },
+  {
+    "name": "sml-lsp",
+    "description": "A Language Server Protocol implementation for SML.",
+    "repositoryTopics": [
+      { "name": "developer-tools" },
+      { "name": "lsp" },
+      { "name": "language-server" }
+    ],
+    "stargazerCount": 9,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": false,
+    "isFork": false
+  },
+  {
+    "name": "sml-http",
+    "description": "A sans-IO HTTP/1.1 parser and writer.",
+    "repositoryTopics": [
+      { "name": "web" },
+      { "name": "http" },
+      { "name": "sans-io" }
+    ],
+    "stargazerCount": 4,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": false,
+    "isFork": false
+  },
+  {
+    "name": "sml-script",
+    "description": "A Bitcoin Script interpreter and stack machine.",
+    "repositoryTopics": [
+      { "name": "bitcoin" },
+      { "name": "bitcoin-script" },
+      { "name": "interpreter" }
+    ],
+    "stargazerCount": 7,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": false,
+    "isFork": false
+  },
+  {
+    "name": "sml-mystery",
+    "description": "A library with no domain topics yet.",
+    "repositoryTopics": [
+      { "name": "standard-ml" },
+      { "name": "mlton" },
+      { "name": "polyml" }
+    ],
+    "stargazerCount": 0,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": false,
+    "isFork": false
+  },
+  {
+    "name": "chinalang",
+    "description": "Not an SML library.",
+    "repositoryTopics": [{ "name": "esolang" }],
+    "stargazerCount": 1,
+    "primaryLanguage": { "name": "C" },
+    "isArchived": false,
+    "isFork": false
+  },
+  {
+    "name": "sml-archived-thing",
+    "description": "Archived, should be dropped.",
+    "repositoryTopics": [{ "name": "sml" }],
+    "stargazerCount": 0,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": true,
+    "isFork": false
+  },
+  {
+    "name": "sml-forked-thing",
+    "description": "A fork, should be dropped.",
+    "repositoryTopics": [{ "name": "sml" }],
+    "stargazerCount": 0,
+    "primaryLanguage": { "name": "Standard ML" },
+    "isArchived": false,
+    "isFork": true
+  }
+]

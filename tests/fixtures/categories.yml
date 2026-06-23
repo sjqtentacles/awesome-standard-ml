@@ -1,0 +1,40 @@
+ignore_topics:
+  - standard-ml
+  - sml
+  - mlton
+  - polyml
+  - sans-io
+
+categories:
+  - title: Developer tooling
+    blurb: Tools that operate on SML itself.
+    topics:
+      - developer-tools
+      - lsp
+      - language-server
+  - title: Cryptography & security
+    blurb: Hashes and ciphers.
+    topics:
+      - cryptography
+      - sha256
+  - title: Blockchain & cryptocurrency
+    blurb: Bitcoin and friends.
+    topics:
+      - bitcoin
+      - bitcoin-script
+  - title: Web, networking & protocols
+    blurb: HTTP and friends.
+    topics:
+      - web
+      - http
+  - title: Data structures
+    blurb: Containers.
+    topics:
+      - data-structures
+      - fenwick-tree
+  - title: Misc
+    blurb: Not yet categorized.
+    topics: []
+
+overrides:
+  sml-script: Blockchain & cryptocurrency

@@ -1,0 +1,4547 @@
+{
+  "org": "sjqtentacles",
+  "count": 242,
+  "repos": [
+    {
+      "name": "sml-aead",
+      "url": "https://github.com/sjqtentacles/sml-aead",
+      "description": "Unified AEAD facade (ChaCha20-Poly1305 + AES-128/256-GCM) in pure Standard ML, with byte-exact RFC 8439 / NIST GCM vectors. Dual-compiler (MLton + Poly/ML).",
+      "topics": [
+        "aead",
+        "aes-gcm",
+        "chacha20-poly1305",
+        "cryptography",
+        "deterministic",
+        "library",
+        "mlton",
+        "poly1305",
+        "polyml",
+        "pure",
+        "rfc8439",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-aes",
+      "url": "https://github.com/sjqtentacles/sml-aes",
+      "description": "AES block cipher with ECB, CBC, CTR, and GCM modes in pure Standard ML (FIPS 197)",
+      "topics": [
+        "aes",
+        "cipher",
+        "cryptography",
+        "gcm",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-asn1",
+      "url": "https://github.com/sjqtentacles/sml-asn1",
+      "description": "ASN.1 DER encoder/decoder for Standard ML (INTEGER/SEQUENCE/OID/… via arbitrary-precision integers). Pure, dual-compiler.",
+      "topics": [
+        "asn1",
+        "der",
+        "deterministic",
+        "encoding",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "serialization",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "x509"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-astar",
+      "url": "https://github.com/sjqtentacles/sml-astar",
+      "description": "Generic A* and Dijkstra pathfinding with 2D grid support in pure Standard ML",
+      "topics": [
+        "astar",
+        "dijkstra",
+        "gamedev",
+        "mlton",
+        "pathfinding",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-astro",
+      "url": "https://github.com/sjqtentacles/sml-astro",
+      "description": "Astronomy basics in pure Standard ML: Julian/Modified Julian dates, a Newton Kepler-equation orbit solver, and low-precision solar position (declination, equation of time). Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "astronomy",
+        "ephemeris",
+        "julian-date",
+        "kepler",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-async",
+      "url": "https://github.com/sjqtentacles/sml-async",
+      "description": "A portable, deterministic async library for Standard ML (scheduler + futures + async monad), running identically on MLton and Poly/ML.",
+      "topics": [
+        "async",
+        "async-await",
+        "concurrency",
+        "event-loop",
+        "functional-programming",
+        "futures",
+        "mlton",
+        "polyml",
+        "promises",
+        "scheduler",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-autodiff",
+      "url": "https://github.com/sjqtentacles/sml-autodiff",
+      "description": "Pure Standard ML automatic differentiation: forward (dual numbers) and reverse (tape) modes (MLton + Poly/ML, deterministic).",
+      "topics": [
+        "autodiff",
+        "automatic-differentiation",
+        "deterministic",
+        "library",
+        "math",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-automata",
+      "url": "https://github.com/sjqtentacles/sml-automata",
+      "description": "Cellular automata in pure Standard ML: Wolfram elementary rules and Conway's Game of Life (MLton + Poly/ML).",
+      "topics": [
+        "cellular-automata",
+        "game-of-life",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "wolfram"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-base32",
+      "url": "https://github.com/sjqtentacles/sml-base32",
+      "description": "Pure Standard ML Base32 codec: RFC 4648, base32hex, Crockford, z-base-32 (MLton + Poly/ML)",
+      "topics": [
+        "base32",
+        "codec",
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-base58",
+      "url": "https://github.com/sjqtentacles/sml-base58",
+      "description": "Base58 and Base58Check codec for Standard ML (Bitcoin alphabet, double-SHA256 checksum). Pure, dual-compiler.",
+      "topics": [
+        "base58",
+        "base58check",
+        "bitcoin",
+        "cryptocurrency",
+        "deterministic",
+        "encoding",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bdd",
+      "url": "https://github.com/sjqtentacles/sml-bdd",
+      "description": "Reduced ordered binary decision diagrams (ROBDDs) with a hash-consing manager, in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "bdd",
+        "binary-decision-diagram",
+        "logic",
+        "mlton",
+        "polyml",
+        "robdd",
+        "sml",
+        "standard-ml",
+        "theorem-proving"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bech32",
+      "url": "https://github.com/sjqtentacles/sml-bech32",
+      "description": "Bech32 and Bech32m encoding with SegwitAddr support in pure Standard ML (BIP-173/350)",
+      "topics": [
+        "bech32",
+        "bitcoin",
+        "codec",
+        "mlton",
+        "polyml",
+        "segwit",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bench",
+      "url": "https://github.com/sjqtentacles/sml-bench",
+      "description": "A deterministic, count-based micro-benchmark harness in pure Standard ML: measures operation counts (not wall-clock time) so results are exactly reproducible (MLton + Poly/ML)",
+      "topics": [
+        "benchmark",
+        "deterministic",
+        "mlton",
+        "operation-counting",
+        "polyml",
+        "reproducible",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bigdecimal",
+      "url": "https://github.com/sjqtentacles/sml-bigdecimal",
+      "description": "Arbitrary-precision decimal arithmetic for Standard ML (Java BigDecimal style), built on IntInf with explicit rounding modes. Portable, tested on MLton and Poly/ML.",
+      "topics": [
+        "arbitrary-precision",
+        "bigdecimal",
+        "decimal",
+        "fixed-point",
+        "mlton",
+        "money",
+        "numerics",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bigint",
+      "url": "https://github.com/sjqtentacles/sml-bigint",
+      "description": "Arbitrary-precision signed integers for Standard ML: Karatsuba multiply, divMod, gcd, modpow, Miller-Rabin. Pure, dual-compiler.",
+      "topics": [
+        "arbitrary-precision",
+        "big-integers",
+        "bignum",
+        "cryptography",
+        "deterministic",
+        "library",
+        "mathematics",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bip32",
+      "url": "https://github.com/sjqtentacles/sml-bip32",
+      "description": "Pure Standard ML BIP-32 hierarchical deterministic wallets (private-tree CKDpriv + neuter, P2PKH) (MLton + Poly/ML)",
+      "topics": [
+        "bip32",
+        "bitcoin",
+        "deterministic",
+        "hd-wallet",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bip39",
+      "url": "https://github.com/sjqtentacles/sml-bip39",
+      "description": "Pure Standard ML BIP-39 mnemonic seed phrases (PBKDF2-HMAC-SHA512) (MLton + Poly/ML)",
+      "topics": [
+        "bip39",
+        "bitcoin",
+        "deterministic",
+        "library",
+        "mlton",
+        "mnemonic",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bitset",
+      "url": "https://github.com/sjqtentacles/sml-bitset",
+      "description": "Portable packed bit-set for Standard ML (MLton + Poly/ML): persistent set algebra, popcount, ascending iteration, fixed 32-bit chunks.",
+      "topics": [
+        "bitset",
+        "data-structures",
+        "mlton",
+        "polyml",
+        "rank-select",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "succinct"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-blake3",
+      "url": "https://github.com/sjqtentacles/sml-blake3",
+      "description": "BLAKE3 cryptographic hash function in pure Standard ML",
+      "topics": [
+        "blake3",
+        "cryptography",
+        "hash",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bloom",
+      "url": "https://github.com/sjqtentacles/sml-bloom",
+      "description": "Bloom filter with optimal sizing and SHA-256 hashing in pure Standard ML",
+      "topics": [
+        "bloom-filter",
+        "data-structures",
+        "mlton",
+        "polyml",
+        "probabilistic",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-bsp",
+      "url": "https://github.com/sjqtentacles/sml-bsp",
+      "description": "Binary Space Partitioning dungeon generator with rooms and corridors in pure Standard ML",
+      "topics": [
+        "bsp",
+        "dungeon-generation",
+        "gamedev",
+        "mlton",
+        "polyml",
+        "procedural",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-btree",
+      "url": "https://github.com/sjqtentacles/sml-btree",
+      "description": "Persistent in-memory B-tree (minimum degree t) in pure Standard ML (polymorphic keys, MLton + Poly/ML)",
+      "topics": [
+        "b-tree",
+        "data-structures",
+        "functional",
+        "mlton",
+        "persistent",
+        "polyml",
+        "search-tree",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-buffer",
+      "url": "https://github.com/sjqtentacles/sml-buffer",
+      "description": "Growable byte/char buffer with rope-style concat for Standard ML. Pure, deterministic, dual-compiler (MLton + Poly/ML).",
+      "topics": [
+        "buffer",
+        "data-structures",
+        "deterministic",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-camera",
+      "url": "https://github.com/sjqtentacles/sml-camera",
+      "description": "Scene math for Standard ML (MLton + Poly/ML): transforms (TRS), camera view/projection, frustum culling, and ray/AABB/sphere/triangle intersection. Built on sml-glm, FFI-free.",
+      "topics": [
+        "3d-math",
+        "camera",
+        "frustum-culling",
+        "gamedev",
+        "graphics",
+        "mlton",
+        "polyml",
+        "raycasting",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "transforms"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-canvas2d",
+      "url": "https://github.com/sjqtentacles/sml-canvas2d",
+      "description": "Pure-SML immediate 2D drawing-command model rendering one scene to both a raster image (sml-raster/sml-image) and SVG. Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "2d",
+        "canvas",
+        "deterministic",
+        "graphics",
+        "gui",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "raster",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "svg"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-cbor",
+      "url": "https://github.com/sjqtentacles/sml-cbor",
+      "description": "CBOR (Concise Binary Object Representation) encoder/decoder in pure Standard ML (RFC 8949)",
+      "topics": [
+        "cbor",
+        "codec",
+        "mlton",
+        "polyml",
+        "serialization",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-chacha20",
+      "url": "https://github.com/sjqtentacles/sml-chacha20",
+      "description": "ChaCha20-Poly1305 and XChaCha20-Poly1305 AEAD in pure Standard ML (RFC 8439)",
+      "topics": [
+        "aead",
+        "chacha20",
+        "cryptography",
+        "mlton",
+        "poly1305",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-check",
+      "url": "https://github.com/sjqtentacles/sml-check",
+      "description": "Pure Standard ML property-based testing with rose-tree shrinking (MLton + Poly/ML, deterministic seeds).",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "property-testing",
+        "pure",
+        "quickcheck",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "testing"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-chem",
+      "url": "https://github.com/sjqtentacles/sml-chem",
+      "description": "Chemistry toolkit in pure Standard ML: periodic table, formula parser, molar mass, and stoichiometric equation balancing. Deterministic on MLton and Poly/ML.",
+      "topics": [
+        "chemistry",
+        "mlton",
+        "molar-mass",
+        "periodic-table",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "stoichiometry"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-chess",
+      "url": "https://github.com/sjqtentacles/sml-chess",
+      "description": "Pure Standard ML chess core: fully legal move generation, perft, FEN, UCI, and a negamax search (MLton + Poly/ML).",
+      "topics": [
+        "chess",
+        "fen",
+        "mlton",
+        "move-generation",
+        "perft",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-circuit",
+      "url": "https://github.com/sjqtentacles/sml-circuit",
+      "description": "Resilience primitives in pure Standard ML: circuit breaker, retry with backoff + jitter, rate limiter, bulkhead (MLton + Poly/ML)",
+      "topics": [
+        "backoff",
+        "bulkhead",
+        "circuit-breaker",
+        "mlton",
+        "polyml",
+        "pure",
+        "rate-limiter",
+        "resilience",
+        "retry",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-cli",
+      "url": "https://github.com/sjqtentacles/sml-cli",
+      "description": "A Standard ML declarative command-line argument parser with subcommands and auto-generated help",
+      "topics": [
+        "argument-parser",
+        "cli",
+        "command-line",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-cluster",
+      "url": "https://github.com/sjqtentacles/sml-cluster",
+      "description": "Clustering in pure Standard ML: k-means (k-means++), DBSCAN, and hierarchical agglomerative clustering. Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "clustering",
+        "dbscan",
+        "hierarchical",
+        "kmeans",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-codec",
+      "url": "https://github.com/sjqtentacles/sml-codec",
+      "description": "Binary codecs for Standard ML: Base64/Base16 (RFC 4648), SHA-1 (RFC 3174), SHA-256 (RFC 6234), CRC-32. Verified against RFC vectors. Pure, dual-compiler.",
+      "topics": [
+        "base16",
+        "base64",
+        "codec",
+        "crc32",
+        "deterministic",
+        "hashing",
+        "mlton",
+        "polyml",
+        "pure",
+        "sha1",
+        "sha256",
+        "sha512",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-collision",
+      "url": "https://github.com/sjqtentacles/sml-collision",
+      "description": "2D AABB, circle, and SAT convex polygon collision detection in pure Standard ML",
+      "topics": [
+        "aabb",
+        "collision-detection",
+        "gamedev",
+        "mlton",
+        "physics",
+        "polyml",
+        "sat",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-color",
+      "url": "https://github.com/sjqtentacles/sml-color",
+      "description": "Color-space math for Standard ML (MLton + Poly/ML): sRGB/linear, HSL/HSV, RGBA8 packing, gamma, blending, interpolation. Deterministic and FFI-free.",
+      "topics": [
+        "cielab",
+        "color",
+        "color-space",
+        "colorimetry",
+        "graphics",
+        "hsl",
+        "mlton",
+        "polyml",
+        "rgba",
+        "sml",
+        "smlpkg",
+        "srgb",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-colorsci",
+      "url": "https://github.com/sjqtentacles/sml-colorsci",
+      "description": "CIE colour-science extensions (XYZ, xyY, CIELUV, CIE94, Bradford adaptation, CCT) on top of sml-color, in pure Standard ML for MLton and Poly/ML",
+      "topics": [
+        "cie",
+        "cielab",
+        "color-science",
+        "color-temperature",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-complex",
+      "url": "https://github.com/sjqtentacles/sml-complex",
+      "description": "Pure Standard ML complex numbers: arithmetic, exp/log/sqrt, powers, trig/hyperbolic and inverse functions, nth-roots, and polar form — deterministic across MLton and Poly/ML.",
+      "topics": [
+        "complex-numbers",
+        "deterministic",
+        "library",
+        "mathematics",
+        "mlton",
+        "numerics",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-config",
+      "url": "https://github.com/sjqtentacles/sml-config",
+      "description": "Typed config for Standard ML from a pure key/value source (env map / dotenv): required/optional/defaults with typed coercion. Pure, dual-compiler.",
+      "topics": [
+        "configuration",
+        "deterministic",
+        "dotenv",
+        "env",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-constants",
+      "url": "https://github.com/sjqtentacles/sml-constants",
+      "description": "CODATA fundamental physical constants as typed, dimensioned quantities in pure Standard ML, built on sml-units (MLton + Poly/ML).",
+      "topics": [
+        "codata",
+        "constants",
+        "mlton",
+        "physics",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "units"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-cookie",
+      "url": "https://github.com/sjqtentacles/sml-cookie",
+      "description": "RFC 6265 Cookie/Set-Cookie parse+build for Standard ML (Path, Domain, Max-Age, Expires, Secure, HttpOnly, SameSite) plus HMAC-signed cookies. Pure, dual-compiler.",
+      "topics": [
+        "cookies",
+        "deterministic",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc6265",
+        "signed-cookies",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "web"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-cose",
+      "url": "https://github.com/sjqtentacles/sml-cose",
+      "description": "COSE (RFC 8152 / RFC 9052) CBOR message structures in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "cbor",
+        "cose",
+        "mlton",
+        "polyml",
+        "rfc8152",
+        "rfc9052",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-crdt",
+      "url": "https://github.com/sjqtentacles/sml-crdt",
+      "description": "A Standard ML library of state-based CRDTs: G-Counter, PN-Counter, LWW-Register, and OR-Set",
+      "topics": [
+        "crdt",
+        "distributed-systems",
+        "eventual-consistency",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "replication",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-crypto",
+      "url": "https://github.com/sjqtentacles/sml-crypto",
+      "description": "HMAC-SHA256 (RFC 4231), constant-time compare, and signed tokens for Standard ML. Verified against RFC vectors. Pure, dual-compiler.",
+      "topics": [
+        "cryptography",
+        "csrf",
+        "deterministic",
+        "hmac",
+        "hmac-sha256",
+        "mlton",
+        "pbkdf2",
+        "polyml",
+        "pure",
+        "signed-cookies",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-csp",
+      "url": "https://github.com/sjqtentacles/sml-csp",
+      "description": "CSP channels and structured concurrency in pure Standard ML on a deterministic virtual-time scheduler",
+      "topics": [
+        "channels",
+        "concurrency",
+        "csp",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "select",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "structured-concurrency"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-css",
+      "url": "https://github.com/sjqtentacles/sml-css",
+      "description": "Typed CSS model in pure Standard ML: selector/declaration/stylesheet algebra with a deterministic serializer and a round-tripping parser. Dual-compiler (MLton + Poly/ML), byte-identical, zero deps.",
+      "topics": [
+        "css",
+        "deterministic",
+        "library",
+        "mlton",
+        "parser",
+        "polyml",
+        "pure",
+        "serializer",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "stylesheet"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-csv",
+      "url": "https://github.com/sjqtentacles/sml-csv",
+      "description": "A Standard ML RFC 4180 CSV/TSV parser and writer with full quoting and escaping",
+      "topics": [
+        "csv",
+        "functional-programming",
+        "mlton",
+        "parser",
+        "polyml",
+        "rfc4180",
+        "sml",
+        "standard-ml",
+        "tsv"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-datetime",
+      "url": "https://github.com/sjqtentacles/sml-datetime",
+      "description": "Civil date arithmetic for Standard ML (MLton + Poly/ML): leap years, epoch days, addDays/diffDays, dayOfWeek, ISO-8601. Branch-free days-from-civil.",
+      "topics": [
+        "calendar",
+        "date",
+        "datetime",
+        "duration",
+        "iso-8601",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-deflate",
+      "url": "https://github.com/sjqtentacles/sml-deflate",
+      "description": "RFC 1951 DEFLATE inflate + RFC 1950/1952 zlib/gzip wrappers for Standard ML. Verified against known compressed vectors. Pure, dual-compiler.",
+      "topics": [
+        "compression",
+        "deflate",
+        "deterministic",
+        "gzip",
+        "huffman",
+        "inflate",
+        "lz77",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc1951",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "zlib"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-deque",
+      "url": "https://github.com/sjqtentacles/sml-deque",
+      "description": "Purely functional double-ended queue for Standard ML (MLton + Poly/ML): banker's two-list deque, O(1) amortised both ends, persistent.",
+      "topics": [
+        "data-structures",
+        "deque",
+        "mlton",
+        "persistent",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-diff",
+      "url": "https://github.com/sjqtentacles/sml-diff",
+      "description": "Myers O(ND) sequence diff for Standard ML: edit scripts, LCS, edit distance, and line-oriented text diffing. Portable across MLton and Poly/ML.",
+      "topics": [
+        "diff",
+        "lcs",
+        "mlton",
+        "myers",
+        "patch",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-dns",
+      "url": "https://github.com/sjqtentacles/sml-dns",
+      "description": "Pure Standard ML DNS message wire codec with name compression, RFC 1035 (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "dns",
+        "library",
+        "mlton",
+        "polyml",
+        "protocol",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-dns-resolve",
+      "url": "https://github.com/sjqtentacles/sml-dns-resolve",
+      "description": "DNS stub resolver in pure Standard ML: TTL-aware LRU cache, CNAME chains, typed answers, built on sml-dns (MLton + Poly/ML)",
+      "topics": [
+        "cname",
+        "dns",
+        "dns-cache",
+        "mlton",
+        "networking",
+        "polyml",
+        "pure",
+        "resolver",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-doc",
+      "url": "https://github.com/sjqtentacles/sml-doc",
+      "description": "A pure Standard ML documentation generator emitting static HTML/Markdown",
+      "topics": [
+        "documentation",
+        "documentation-generator",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "static-site"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-dp",
+      "url": "https://github.com/sjqtentacles/sml-dp",
+      "description": "Dynamic-programming toolkit in pure Standard ML: knapsack, LIS, coin change, matrix-chain, interval scheduling (MLton + Poly/ML)",
+      "topics": [
+        "algorithms",
+        "combinatorial-optimization",
+        "dynamic-programming",
+        "knapsack-problem",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-dsp",
+      "url": "https://github.com/sjqtentacles/sml-dsp",
+      "description": "Frequency-domain DSP in pure Standard ML: windows, RBJ biquads, windowed-sinc FIR, IIR, FFT convolution, STFT/ISTFT (MLton + Poly/ML)",
+      "topics": [
+        "audio",
+        "dsp",
+        "fft",
+        "filters",
+        "mlton",
+        "polyml",
+        "signal-processing",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ecs",
+      "url": "https://github.com/sjqtentacles/sml-ecs",
+      "description": "Entity-Component-System (ECS) architecture with sparse component stores in pure Standard ML",
+      "topics": [
+        "ecs",
+        "entity-component-system",
+        "gamedev",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ed25519",
+      "url": "https://github.com/sjqtentacles/sml-ed25519",
+      "description": "Ed25519 digital signatures over Edwards25519 in pure Standard ML (RFC 8032)",
+      "topics": [
+        "cryptography",
+        "ed25519",
+        "elliptic-curve",
+        "mlton",
+        "polyml",
+        "signatures",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-editorcore",
+      "url": "https://github.com/sjqtentacles/sml-editorcore",
+      "description": "Text-editor core in pure Standard ML: piece-table buffer, undo/redo history, Unicode-aware cursor, stable marks (MLton + Poly/ML)",
+      "topics": [
+        "cursor",
+        "mlton",
+        "piece-table",
+        "polyml",
+        "pure",
+        "sml",
+        "standard-ml",
+        "text-editor",
+        "undo-redo",
+        "unicode"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-effects",
+      "url": "https://github.com/sjqtentacles/sml-effects",
+      "description": "Algebraic effects and handlers (State/Reader/Writer/Exception/Nondet) via a free-monad tree in pure Standard ML",
+      "topics": [
+        "algebraic-effects",
+        "effect-handlers",
+        "free-monad",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-elab",
+      "url": "https://github.com/sjqtentacles/sml-elab",
+      "description": "Pure Standard ML type elaborator: Hindley-Milner Algorithm W over the positioned sml-mlast AST, with principal types, row-polymorphic records, and spanned diagnostics. Byte-identical under MLton and Poly/ML.",
+      "topics": [
+        "algorithm-w",
+        "compiler",
+        "hindley-milner",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "type-checker",
+        "type-inference"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-feed",
+      "url": "https://github.com/sjqtentacles/sml-feed",
+      "description": "Unified RSS 2.0 + Atom 1.0 feed parser and generator in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "atom",
+        "feed",
+        "mlton",
+        "polyml",
+        "rss",
+        "sml",
+        "standard-ml",
+        "syndication"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-fenwick",
+      "url": "https://github.com/sjqtentacles/sml-fenwick",
+      "description": "Fenwick trees (BIT) and a lazy-propagation segment tree in pure Standard ML — persistent prefix/range sums, cumulative search, range-add/range-sum; dual-compiler (MLton + Poly/ML).",
+      "topics": [
+        "algorithms",
+        "binary-indexed-tree",
+        "data-structures",
+        "fenwick-tree",
+        "mlton",
+        "polyml",
+        "segment-tree",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-fft",
+      "url": "https://github.com/sjqtentacles/sml-fft",
+      "description": "Fast Fourier Transform (FFT/IFFT, real-FFT, FFT convolution) for Standard ML. Radix-2 + Bluestein. Pure, dual-compiler.",
+      "topics": [
+        "dct",
+        "deterministic",
+        "dsp",
+        "fft",
+        "fourier",
+        "library",
+        "mathematics",
+        "mlton",
+        "polyml",
+        "pure",
+        "signal-processing",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-fingertree",
+      "url": "https://github.com/sjqtentacles/sml-fingertree",
+      "description": "Persistent 2-3 finger tree (sequence/deque) in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "data-structures",
+        "deque",
+        "finger-tree",
+        "functional",
+        "mlton",
+        "persistent",
+        "polyml",
+        "sequence",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-fmt",
+      "url": "https://github.com/sjqtentacles/sml-fmt",
+      "description": "A pure Standard ML, deterministic and idempotent source code formatter",
+      "topics": [
+        "code-formatter",
+        "formatter",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "pretty-printer",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-font",
+      "url": "https://github.com/sjqtentacles/sml-font",
+      "description": "Pure Standard ML bitmap font (BDF) glyph rendering into sml-image (MLton + Poly/ML)",
+      "topics": [
+        "bdf",
+        "deterministic",
+        "font",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "text-rendering"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-forms",
+      "url": "https://github.com/sjqtentacles/sml-forms",
+      "description": "Decode form/query/JSON bodies into typed values for Standard ML via a validation applicative that accumulates errors. Pure, dual-compiler.",
+      "topics": [
+        "applicative",
+        "deterministic",
+        "forms",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "validation",
+        "web"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-fov",
+      "url": "https://github.com/sjqtentacles/sml-fov",
+      "description": "Recursive shadowcasting field-of-view and Bresenham line-of-sight for tile games in pure Standard ML",
+      "topics": [
+        "field-of-view",
+        "gamedev",
+        "mlton",
+        "polyml",
+        "roguelike",
+        "shadowcasting",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-free",
+      "url": "https://github.com/sjqtentacles/sml-free",
+      "description": "Free monad and interpreter pattern over a key/value DSL in pure Standard ML",
+      "topics": [
+        "free-monad",
+        "functional-programming",
+        "interpreter",
+        "mlton",
+        "monad",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-fsm",
+      "url": "https://github.com/sjqtentacles/sml-fsm",
+      "description": "Finite state machine and behavior tree for game AI in pure Standard ML",
+      "topics": [
+        "behavior-tree",
+        "finite-state-machine",
+        "game-ai",
+        "gamedev",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-fuzzy",
+      "url": "https://github.com/sjqtentacles/sml-fuzzy",
+      "description": "Fuzzy string matching for Standard ML: Levenshtein/Damerau distance, similarity ranking, BK-tree, and Soundex. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "edit-distance",
+        "fuzzy-matching",
+        "levenshtein",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "soundex",
+        "standard-ml",
+        "string-matching"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-gemini",
+      "url": "https://github.com/sjqtentacles/sml-gemini",
+      "description": "Pure Standard ML codec for the Gemini protocol and gemtext markup — dependency-free, MLton + Poly/ML",
+      "topics": [
+        "codec",
+        "gemini",
+        "gemini-protocol",
+        "gemtext",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-geo",
+      "url": "https://github.com/sjqtentacles/sml-geo",
+      "description": "GeoJSON (RFC 7946) typed geometry model with parser, serializer, and bbox in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "geojson",
+        "geometry",
+        "gis",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc7946",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-geodesy",
+      "url": "https://github.com/sjqtentacles/sml-geodesy",
+      "description": "WGS-84 geodesy in pure Standard ML: haversine, Vincenty geodesics, and UTM projection (MLton + Poly/ML).",
+      "topics": [
+        "geodesy",
+        "gis",
+        "haversine",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "utm",
+        "vincenty"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-geom2d",
+      "url": "https://github.com/sjqtentacles/sml-geom2d",
+      "description": "Constructive 2D computational geometry in pure Standard ML: convex hull, Delaunay triangulation, polygon clipping, area/centroid — deterministic and byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "computational-geometry",
+        "convex-hull",
+        "delaunay",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "triangulation"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-gif",
+      "url": "https://github.com/sjqtentacles/sml-gif",
+      "description": "Pure Standard ML animated GIF encoder (LZW + median-cut palette) (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "gif",
+        "image",
+        "library",
+        "lzw",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-git",
+      "url": "https://github.com/sjqtentacles/sml-git",
+      "description": "Pure Standard ML git plumbing: object, packfile, index and ref formats (MLton + Poly/ML, deterministic).",
+      "topics": [
+        "deterministic",
+        "git",
+        "library",
+        "mlton",
+        "packfile",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "version-control"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-glm",
+      "url": "https://github.com/sjqtentacles/sml-glm",
+      "description": "Graphics linear algebra for Standard ML (MLton + Poly/ML): vec2/3/4, mat2/3/4, quaternions, transforms, projections. Column-major, OpenGL conventions, pure (no FFI).",
+      "topics": [
+        "gamedev",
+        "graphics-math",
+        "linear-algebra",
+        "matrix",
+        "mlton",
+        "opengl",
+        "polyml",
+        "quaternion",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "vector"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-glob",
+      "url": "https://github.com/sjqtentacles/sml-glob",
+      "description": "Shell-style glob matching for Standard ML (MLton + Poly/ML): *, ?, [classes], ranges, negation, escapes, case-insensitive. Pure backtracking matcher.",
+      "topics": [
+        "glob",
+        "mlton",
+        "pattern-matching",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-graph",
+      "url": "https://github.com/sjqtentacles/sml-graph",
+      "description": "A Standard ML graph algorithms library: BFS, DFS, topological sort, SCC, MST, and max-flow",
+      "topics": [
+        "algorithms",
+        "data-structures",
+        "functional-programming",
+        "graph",
+        "graph-algorithms",
+        "mlton",
+        "polyml",
+        "shortest-path",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-graphql",
+      "url": "https://github.com/sjqtentacles/sml-graphql",
+      "description": "GraphQL executable-document parser, AST and deterministic pretty-printer in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "ast",
+        "graphql",
+        "mlton",
+        "parser",
+        "polyml",
+        "query-language",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-gzip",
+      "url": "https://github.com/sjqtentacles/sml-gzip",
+      "description": "A Standard ML gzip (RFC 1952) container codec over DEFLATE/INFLATE with CRC32 verification",
+      "topics": [
+        "codec",
+        "compression",
+        "deflate",
+        "functional-programming",
+        "gzip",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-hamt",
+      "url": "https://github.com/sjqtentacles/sml-hamt",
+      "description": "Persistent immutable hash map and vector (HAMT/CHAMP, 32-ary trie) for Standard ML, with structural sharing. Pure, dual-compiler.",
+      "topics": [
+        "data-structures",
+        "deterministic",
+        "hamt",
+        "hash-map",
+        "immutable",
+        "library",
+        "mlton",
+        "persistent-data-structures",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-hex",
+      "url": "https://github.com/sjqtentacles/sml-hex",
+      "description": "Portable hexadecimal encode/decode for Standard ML (MLton + Poly/ML): byte and string entry points, strict decoding, mixed-case tolerant.",
+      "topics": [
+        "encoding",
+        "hex",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-hm",
+      "url": "https://github.com/sjqtentacles/sml-hm",
+      "description": "Hindley-Milner type inference (Algorithm W) for a mini-ML in pure Standard ML, with let-polymorphism and an ofLambda bridge to the vendored sml-lambda. Dual-compiler MLton + Poly/ML.",
+      "topics": [
+        "algorithm-w",
+        "hindley-milner",
+        "lambda-calculus",
+        "let-polymorphism",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "type-inference",
+        "type-system"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-html",
+      "url": "https://github.com/sjqtentacles/sml-html",
+      "description": "HTML AST with safe-by-default, context-aware escaping for Standard ML. XSS holes are opt-in and greppable. Pure, dual-compiler (MLton + Poly/ML).",
+      "topics": [
+        "deterministic",
+        "html",
+        "html-escaping",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "templating",
+        "web",
+        "xss"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-http",
+      "url": "https://github.com/sjqtentacles/sml-http",
+      "description": "RFC 9110/9112 HTTP/1.1 message model for Standard ML: request/response records, case-insensitive headers, parser, chunked + Content-Length framing, CLI. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "http",
+        "http-parser",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc9110",
+        "rfc9112",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-http2",
+      "url": "https://github.com/sjqtentacles/sml-http2",
+      "description": "HTTP/2 framing + HPACK header compression in pure Standard ML, verified against RFC 7541 vectors (MLton + Poly/ML)",
+      "topics": [
+        "functional-programming",
+        "hpack",
+        "http2",
+        "mlton",
+        "networking",
+        "polyml",
+        "protocol",
+        "rfc7540",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-httpc",
+      "url": "https://github.com/sjqtentacles/sml-httpc",
+      "description": "Pure sans-IO HTTP/1.1 client state machine in Standard ML (request builder + incremental response/chunked decoder + redirect logic). Dual-compiler (MLton + Poly/ML).",
+      "topics": [
+        "deterministic",
+        "http",
+        "http-client",
+        "library",
+        "mlton",
+        "networking",
+        "polyml",
+        "pure",
+        "sans-io",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-httpc-tool",
+      "url": "https://github.com/sjqtentacles/sml-httpc-tool",
+      "description": "Impure TCP socket driver + CLI for the pure sml-httpc HTTP/1.1 client. Quarantined IO tool (not dual-compiler-guaranteed); plain HTTP only.",
+      "topics": [
+        "cli",
+        "http",
+        "http-client",
+        "impure",
+        "mlton",
+        "networking",
+        "polyml",
+        "sjqtentacles-web",
+        "sml",
+        "sockets",
+        "standard-ml",
+        "tool"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-hungarian",
+      "url": "https://github.com/sjqtentacles/sml-hungarian",
+      "description": "Assignment problem (Hungarian/Kuhn-Munkres) and Hopcroft-Karp bipartite matching in pure Standard ML, integer arithmetic (MLton + Poly/ML)",
+      "topics": [
+        "algorithms",
+        "assignment-problem",
+        "bipartite-matching",
+        "hungarian-algorithm",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-image",
+      "url": "https://github.com/sjqtentacles/sml-image",
+      "description": "Image codecs for Standard ML (MLton + Poly/ML): decode/encode PNM (PPM/PGM), BMP, TGA, and PNG (RGBA8). PNG built on vendored sml-inflate. Pure, FFI-free.",
+      "topics": [
+        "bmp",
+        "graphics",
+        "image",
+        "image-codec",
+        "mlton",
+        "png",
+        "polyml",
+        "ppm",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "tga"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-inflate",
+      "url": "https://github.com/sjqtentacles/sml-inflate",
+      "description": "DEFLATE/zlib/gzip decompression for Standard ML (MLton + Poly/ML): RFC 1950/1951/1952, CRC-32 and Adler-32, fixed and dynamic Huffman. Pure, FFI-free.",
+      "topics": [
+        "crc32",
+        "decompression",
+        "deflate",
+        "gzip",
+        "huffman",
+        "inflate",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "zlib"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ipaddr",
+      "url": "https://github.com/sjqtentacles/sml-ipaddr",
+      "description": "IPv4/IPv6 address parsing, CIDR arithmetic, and RFC 5952 canonical formatting in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "cidr",
+        "ip-address",
+        "ipv4",
+        "ipv6",
+        "mlton",
+        "networking",
+        "polyml",
+        "pure",
+        "rfc5952",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-json",
+      "url": "https://github.com/sjqtentacles/sml-json",
+      "description": "Self-contained JSON parser + serializer for Standard ML, built on (vendored) sml-parsec.",
+      "topics": [
+        "json",
+        "json-parser",
+        "mlton",
+        "parser",
+        "parser-combinators",
+        "polyml",
+        "serializer",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-jsonpath",
+      "url": "https://github.com/sjqtentacles/sml-jsonpath",
+      "description": "Pure Standard ML JSONPath query engine over sml-json (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "json",
+        "jsonpath",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "query",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-jwt",
+      "url": "https://github.com/sjqtentacles/sml-jwt",
+      "description": "A Standard ML library for JSON Web Tokens (JWS) with HMAC-SHA256 (HS256) signing and verification",
+      "topics": [
+        "authentication",
+        "functional-programming",
+        "hmac",
+        "jws",
+        "jwt",
+        "mlton",
+        "polyml",
+        "security",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-kalman",
+      "url": "https://github.com/sjqtentacles/sml-kalman",
+      "description": "Linear Kalman filter and recursive least squares in pure Standard ML, over the vendored sml-matrix. Dual-compiler (MLton & Poly/ML), deterministic.",
+      "topics": [
+        "estimation",
+        "kalman-filter",
+        "mlton",
+        "polyml",
+        "recursive-least-squares",
+        "sml",
+        "standard-ml",
+        "state-space"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-kdf",
+      "url": "https://github.com/sjqtentacles/sml-kdf",
+      "description": "Key-derivation functions in pure Standard ML: HKDF (RFC 5869) + scrypt (RFC 7914), with byte-exact RFC vectors. Dual-compiler (MLton + Poly/ML).",
+      "topics": [
+        "cryptography",
+        "deterministic",
+        "hkdf",
+        "kdf",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc5869",
+        "rfc7914",
+        "scrypt",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-kdtree",
+      "url": "https://github.com/sjqtentacles/sml-kdtree",
+      "description": "Balanced k-d trees in pure Standard ML: nearest-neighbour, k-NN, box, and radius queries over real coordinates. Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "kd-tree",
+        "mlton",
+        "nearest-neighbor",
+        "polyml",
+        "range-query",
+        "sml",
+        "spatial-index",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-kv",
+      "url": "https://github.com/sjqtentacles/sml-kv",
+      "description": "A pure Standard ML log-structured key/value store model: append-only log, replay, compaction, length-prefixed serialization, and an SSTable binary-search block (MLton + Poly/ML)",
+      "topics": [
+        "compaction",
+        "key-value-store",
+        "log-structured",
+        "mlton",
+        "polyml",
+        "sml",
+        "sstable",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-lambda",
+      "url": "https://github.com/sjqtentacles/sml-lambda",
+      "description": "Untyped + simply-typed lambda calculus: parser, capture-avoiding substitution, normal-order reduction, STLC typechecker, in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "interpreter",
+        "lambda-calculus",
+        "logic",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "theorem-proving",
+        "type-theory"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-layout",
+      "url": "https://github.com/sjqtentacles/sml-layout",
+      "description": "Pure-SML constraint/flexbox box-layout solver: box tree + viewport -> resolved rects (Row/Column, flex-grow, basis, padding/margin/gap, justify/align), byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "deterministic",
+        "flexbox",
+        "gui",
+        "layout",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "ui"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-lens",
+      "url": "https://github.com/sjqtentacles/sml-lens",
+      "description": "Concrete getter/setter optics (lenses, prisms, traversals, isos) in pure Standard ML",
+      "topics": [
+        "functional-programming",
+        "lenses",
+        "mlton",
+        "optics",
+        "polyml",
+        "prisms",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-lint",
+      "url": "https://github.com/sjqtentacles/sml-lint",
+      "description": "Pure, deterministic static linter for Standard ML over the positioned sml-mlast AST: unused/shadow/dead-open/non-exhaustive/redundant-parens/naming rules. MLton + Poly/ML, byte-identical.",
+      "topics": [
+        "linter",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "static-analysis"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-lisp",
+      "url": "https://github.com/sjqtentacles/sml-lisp",
+      "description": "A small functional Scheme interpreter in Standard ML (MLton + Poly/ML): closures, IntInf bignums, proper tail calls.",
+      "topics": [
+        "interpreter",
+        "lisp",
+        "mlton",
+        "polyml",
+        "scheme",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-log",
+      "url": "https://github.com/sjqtentacles/sml-log",
+      "description": "Leveled structured logging for Standard ML with a pluggable sink (default deterministic string sink). Pure, dual-compiler (MLton + Poly/ML).",
+      "topics": [
+        "deterministic",
+        "logging",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "structured-logging"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-logic",
+      "url": "https://github.com/sjqtentacles/sml-logic",
+      "description": "Propositional logic toolkit: parser, truth tables, tautology/SAT/equivalence, NNF/CNF/DNF, in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "logic",
+        "mlton",
+        "normal-forms",
+        "polyml",
+        "propositional-logic",
+        "sml",
+        "standard-ml",
+        "theorem-proving",
+        "truth-table"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-lru",
+      "url": "https://github.com/sjqtentacles/sml-lru",
+      "description": "Bounded LRU/LFU caches with optional TTL for Standard ML (functional, logical-clock based). Pure, dual-compiler.",
+      "topics": [
+        "cache",
+        "data-structures",
+        "deterministic",
+        "lfu",
+        "library",
+        "lru-cache",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-lsp",
+      "url": "https://github.com/sjqtentacles/sml-lsp",
+      "description": "A pure Standard ML language server (LSP over JSON-RPC) for Standard ML",
+      "topics": [
+        "developer-tools",
+        "functional-programming",
+        "json-rpc",
+        "language-server",
+        "lsp",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-lz4",
+      "url": "https://github.com/sjqtentacles/sml-lz4",
+      "description": "Pure Standard ML LZ4 block-format compressor and decompressor (zero dependencies, MLton + Poly/ML)",
+      "topics": [
+        "codec",
+        "compression",
+        "lz4",
+        "lz77",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-markdown",
+      "url": "https://github.com/sjqtentacles/sml-markdown",
+      "description": "CommonMark-subset Markdown parser in pure Standard ML, rendering to an sml-html node tree (MLton + Poly/ML)",
+      "topics": [
+        "commonmark",
+        "html",
+        "markdown",
+        "mlton",
+        "parser",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-markov",
+      "url": "https://github.com/sjqtentacles/sml-markov",
+      "description": "Discrete-time Markov chains in pure Standard ML: n-step distributions, stationary distribution, and seeded trajectory sampling. Deterministic on MLton and Poly/ML.",
+      "topics": [
+        "markov-chain",
+        "mlton",
+        "polyml",
+        "simulation",
+        "sml",
+        "standard-ml",
+        "stationary-distribution",
+        "stochastic"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-matrix",
+      "url": "https://github.com/sjqtentacles/sml-matrix",
+      "description": "A Standard ML dense linear algebra library: multiply, transpose, LU, determinant, solve, inverse, QR",
+      "topics": [
+        "functional-programming",
+        "linear-algebra",
+        "math",
+        "matrix",
+        "mlton",
+        "numerical-computing",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-merkle",
+      "url": "https://github.com/sjqtentacles/sml-merkle",
+      "description": "Merkle tree construction, root computation, and inclusion proofs in pure Standard ML",
+      "topics": [
+        "blockchain",
+        "cryptography",
+        "merkle-tree",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-metrics",
+      "url": "https://github.com/sjqtentacles/sml-metrics",
+      "description": "Prometheus-style counters, gauges, histograms + text exposition in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "functional-programming",
+        "metrics",
+        "mlton",
+        "monitoring",
+        "observability",
+        "polyml",
+        "prometheus",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-middleware",
+      "url": "https://github.com/sjqtentacles/sml-middleware",
+      "description": "Composable handler->handler middleware for Standard ML: compose, error catching, body limits, logging, headers, in-memory static files (glob). Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "http",
+        "middleware",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "web"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-midi",
+      "url": "https://github.com/sjqtentacles/sml-midi",
+      "description": "Pure Standard ML Standard MIDI File (SMF) reader/writer: format 0 and 1, full event model, VLQ codec (MLton + Poly/ML).",
+      "topics": [
+        "midi",
+        "mlton",
+        "music",
+        "polyml",
+        "smf",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-mime",
+      "url": "https://github.com/sjqtentacles/sml-mime",
+      "description": "MIME for Standard ML: media-type parse/format (RFC 9110), multipart/form-data splitter+builder (RFC 7578), extension->MIME table. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "media-type",
+        "mime",
+        "mlton",
+        "multipart",
+        "polyml",
+        "pure",
+        "rfc7578",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-minikanren",
+      "url": "https://github.com/sjqtentacles/sml-minikanren",
+      "description": "Pure Standard ML miniKanren: relational logic programming (==, =/=, conde, fresh, run/reify) over fair streams (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "library",
+        "logic-programming",
+        "minikanren",
+        "mlton",
+        "polyml",
+        "pure",
+        "relational",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-mlast",
+      "url": "https://github.com/sjqtentacles/sml-mlast",
+      "description": "A pure Standard ML lexer, parser, AST and pretty-printer for Standard ML '97",
+      "topics": [
+        "ast",
+        "compiler",
+        "functional-programming",
+        "lexer",
+        "mlton",
+        "parser",
+        "polyml",
+        "pretty-printer",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-modelcheck",
+      "url": "https://github.com/sjqtentacles/sml-modelcheck",
+      "description": "Symbolic CTL model checking over finite Kripke structures in pure Standard ML, using the vendored sml-bdd ROBDD library. Dual-compiler MLton + Poly/ML.",
+      "topics": [
+        "bdd",
+        "ctl",
+        "formal-methods",
+        "kripke-structure",
+        "mlton",
+        "model-checking",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "symbolic-model-checking"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-montecarlo",
+      "url": "https://github.com/sjqtentacles/sml-montecarlo",
+      "description": "Seeded Monte-Carlo integration and estimation in pure Standard ML: 1-D/box integration, antithetic variates, and a pi estimate. Deterministic on MLton and Poly/ML.",
+      "topics": [
+        "integration",
+        "mlton",
+        "monte-carlo",
+        "polyml",
+        "sampling",
+        "simulation",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-mqtt",
+      "url": "https://github.com/sjqtentacles/sml-mqtt",
+      "description": "MQTT 3.1.1/5.0 packet codec + pure client state machine in pure Standard ML (MLton + Poly/ML), zero dependencies",
+      "topics": [
+        "functional-programming",
+        "iot",
+        "messaging",
+        "mlton",
+        "mqtt",
+        "polyml",
+        "protocol",
+        "pubsub",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-msgpack",
+      "url": "https://github.com/sjqtentacles/sml-msgpack",
+      "description": "MessagePack binary serialization (spec v2.0) in pure Standard ML",
+      "topics": [
+        "codec",
+        "mlton",
+        "msgpack",
+        "polyml",
+        "serialization",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-music",
+      "url": "https://github.com/sjqtentacles/sml-music",
+      "description": "Pure Standard ML music theory: pitches, MIDI, frequencies, scales, chords, and key signatures (MLton + Poly/ML).",
+      "topics": [
+        "chords",
+        "midi-adjacent",
+        "mlton",
+        "music-theory",
+        "polyml",
+        "scales",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-nbody",
+      "url": "https://github.com/sjqtentacles/sml-nbody",
+      "description": "Barnes-Hut quadtree gravitational N-body in pure Standard ML: mass/center-of-mass quadtree, opening-angle force approximation, direct O(n^2) cross-check, symplectic leapfrog. Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "barnes-hut",
+        "gravity",
+        "mlton",
+        "nbody",
+        "polyml",
+        "simulation",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-negotiate",
+      "url": "https://github.com/sjqtentacles/sml-negotiate",
+      "description": "RFC 9110 proactive content negotiation for Standard ML: Accept / Accept-Encoding / Accept-Language parsing + q-value best-match. Pure, dual-compiler.",
+      "topics": [
+        "content-negotiation",
+        "deterministic",
+        "http",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc9110",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "web"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-nn",
+      "url": "https://github.com/sjqtentacles/sml-nn",
+      "description": "Neural networks in pure Standard ML on reverse-mode autodiff: dense layers, activations, MSE/CE, SGD/Adam",
+      "topics": [
+        "autodiff",
+        "backpropagation",
+        "deep-learning",
+        "functional-programming",
+        "machine-learning",
+        "mlton",
+        "neural-network",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-noise",
+      "url": "https://github.com/sjqtentacles/sml-noise",
+      "description": "Procedural noise for Standard ML (MLton + Poly/ML): Perlin, simplex, value, and worley noise plus fbm/turbulence. Deterministic, seedable, pure (no FFI).",
+      "topics": [
+        "fbm",
+        "gamedev",
+        "mlton",
+        "noise",
+        "perlin-noise",
+        "polyml",
+        "procedural-generation",
+        "simplex-noise",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "worley-noise"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-numbertheory",
+      "url": "https://github.com/sjqtentacles/sml-numbertheory",
+      "description": "Pure Standard ML number theory: sieve, factorization, CRT, totient, Jacobi (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "modular-arithmetic",
+        "number-theory",
+        "polyml",
+        "primes",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-oauth",
+      "url": "https://github.com/sjqtentacles/sml-oauth",
+      "description": "OAuth 2.0 + PKCE (RFC 6749 / RFC 7636) as a pure state machine in Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "authentication",
+        "mlton",
+        "oauth",
+        "oauth2",
+        "pkce",
+        "polyml",
+        "pure",
+        "rfc6749",
+        "rfc7636",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-obj",
+      "url": "https://github.com/sjqtentacles/sml-obj",
+      "description": "Mesh parsers for Standard ML (MLton + Poly/ML): Wavefront OBJ/MTL and PLY (ASCII + binary little-endian). Triangulates faces, emits sml-glm vertex/index buffers. FFI-free.",
+      "topics": [
+        "3d-models",
+        "gamedev",
+        "graphics",
+        "mesh",
+        "mesh-parser",
+        "mlton",
+        "ply",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "wavefront-obj"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ode",
+      "url": "https://github.com/sjqtentacles/sml-ode",
+      "description": "Pure Standard ML ODE integrators: Euler, RK4, adaptive RK45 (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "numerical",
+        "ode",
+        "polyml",
+        "pure",
+        "runge-kutta",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-openapi",
+      "url": "https://github.com/sjqtentacles/sml-openapi",
+      "description": "Typed OpenAPI 3.0 model with YAML + JSON parsing and serialization in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "json",
+        "mlton",
+        "openapi",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "swagger",
+        "yaml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-p256",
+      "url": "https://github.com/sjqtentacles/sml-p256",
+      "description": "NIST P-256 (secp256r1) ECDH key agreement and ECDSA signature verification in pure Standard ML. Built on sml-bigint, sml-asn1, sml-codec. Pure, dual-compiler.",
+      "topics": [
+        "cryptography",
+        "ecdh",
+        "ecdsa",
+        "mlton",
+        "p-256",
+        "polyml",
+        "pure",
+        "secp256r1",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-packrat",
+      "url": "https://github.com/sjqtentacles/sml-packrat",
+      "description": "Memoizing PEG (packrat) parser for Standard ML (MLton + Poly/ML): ordered choice, & / ! predicates, linear-time memoization.",
+      "topics": [
+        "mlton",
+        "packrat-parsing",
+        "parsing",
+        "peg",
+        "polyml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-parsec",
+      "url": "https://github.com/sjqtentacles/sml-parsec",
+      "description": "Parser combinators for Standard ML (MLton + Poly/ML), with position tracking and precise error reporting.",
+      "topics": [
+        "mlton",
+        "parser-combinators",
+        "parsing",
+        "polyml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-patricia",
+      "url": "https://github.com/sjqtentacles/sml-patricia",
+      "description": "Compressed radix trie (Patricia tree) with longest-prefix match and prefix search in pure Standard ML. Pure, dual-compiler.",
+      "topics": [
+        "data-structures",
+        "deterministic",
+        "mlton",
+        "patricia",
+        "polyml",
+        "prefix-search",
+        "pure",
+        "radix-tree",
+        "sml",
+        "standard-ml",
+        "trie"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-pde",
+      "url": "https://github.com/sjqtentacles/sml-pde",
+      "description": "Finite-difference PDE solvers (heat: FTCS + Crank-Nicolson; wave: leapfrog) on 1-D/2-D grids in pure Standard ML over sml-matrix. Dual-compiler (MLton & Poly/ML).",
+      "topics": [
+        "finite-difference",
+        "heat-equation",
+        "mlton",
+        "pde",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "wave-equation"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-pdf",
+      "url": "https://github.com/sjqtentacles/sml-pdf",
+      "description": "Pure Standard ML PDF generator: page tree, vector graphics, Core-14 base fonts, FlateDecode - no font embedding",
+      "topics": [
+        "flatedecode",
+        "functional-programming",
+        "mlton",
+        "pdf",
+        "pdf-generation",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "vector-graphics"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-pem",
+      "url": "https://github.com/sjqtentacles/sml-pem",
+      "description": "Pure Standard ML PEM encode/decode (RFC 7468) over Base64 (MLton + Poly/ML)",
+      "topics": [
+        "base64",
+        "deterministic",
+        "library",
+        "mlton",
+        "pem",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "x509"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-physics",
+      "url": "https://github.com/sjqtentacles/sml-physics",
+      "description": "2D rigid-body and particle physics in pure Standard ML: symplectic integrators (Verlet/leapfrog/semi-implicit Euler), projectile closed forms, and a bouncing rigid-body world. Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "mlton",
+        "physics",
+        "polyml",
+        "rigid-body",
+        "simulation",
+        "sml",
+        "standard-ml",
+        "verlet"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-pkg",
+      "url": "https://github.com/sjqtentacles/sml-pkg",
+      "description": "Pure Standard ML package-manifest resolver + lockfile + .mlb generator (smlpkg-compatible), with a thin git/mlton build driver. Byte-identical under MLton and Poly/ML.",
+      "topics": [
+        "build-tool",
+        "dependency-resolution",
+        "mlb",
+        "mlton",
+        "package-manager",
+        "polyml",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-plot",
+      "url": "https://github.com/sjqtentacles/sml-plot",
+      "description": "Pure Standard ML charting to PNG: line/bar/scatter/histogram with axes, ticks, and legend (MLton + Poly/ML)",
+      "topics": [
+        "charts",
+        "dataviz",
+        "deterministic",
+        "library",
+        "mlton",
+        "plotting",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-poly",
+      "url": "https://github.com/sjqtentacles/sml-poly",
+      "description": "Univariate polynomials over an arbitrary ring for Standard ML, via a nesting Poly functor. Euclidean division and GCD over fields. Portable across MLton and Poly/ML.",
+      "topics": [
+        "algebra",
+        "functor",
+        "interpolation",
+        "mlton",
+        "numerical-methods",
+        "polyml",
+        "polynomials",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-pqueue",
+      "url": "https://github.com/sjqtentacles/sml-pqueue",
+      "description": "Purely functional priority queue (pairing heap) for Standard ML (MLton + Poly/ML): functor over ORDERED, persistent, min/max-heap, O(1) merge.",
+      "topics": [
+        "data-structures",
+        "mlton",
+        "pairing-heap",
+        "polyml",
+        "priority-queue",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-pretty",
+      "url": "https://github.com/sjqtentacles/sml-pretty",
+      "description": "A Wadler/Leijen pretty-printer combinator library in pure Standard ML (group/nest/line, width-aware layout).",
+      "topics": [
+        "combinators",
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pretty-printer",
+        "pretty-printing",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "wadler"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-prng",
+      "url": "https://github.com/sjqtentacles/sml-prng",
+      "description": "Deterministic pseudo-random number generators for Standard ML (MLton + Poly/ML): SplitMix64, xoshiro256, PCG, uniform reals/ranges. Golden-vector tested, FFI-free.",
+      "topics": [
+        "deterministic",
+        "mlton",
+        "pcg",
+        "polyml",
+        "prng",
+        "random",
+        "rng",
+        "sml",
+        "smlpkg",
+        "splitmix",
+        "standard-ml",
+        "xoshiro"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-proof",
+      "url": "https://github.com/sjqtentacles/sml-proof",
+      "description": "Natural-deduction proof checker for classical propositional logic in pure Standard ML, built on the vendored sml-logic formula type. Dual-compiler MLton + Poly/ML.",
+      "topics": [
+        "formal-methods",
+        "mlton",
+        "natural-deduction",
+        "polyml",
+        "proof-checker",
+        "propositional-logic",
+        "sequent",
+        "sml",
+        "standard-ml",
+        "theorem-proving"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-protobuf",
+      "url": "https://github.com/sjqtentacles/sml-protobuf",
+      "description": "Protocol Buffers wire-format codec for Standard ML (varint, zigzag, length-delimited, fixed32/64). Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "encoding",
+        "library",
+        "mlton",
+        "polyml",
+        "protobuf",
+        "protocol-buffers",
+        "pure",
+        "serialization",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "varint"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-qoi",
+      "url": "https://github.com/sjqtentacles/sml-qoi",
+      "description": "Pure Standard ML QOI (Quite OK Image) encoder/decoder (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "image",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "qoi",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-qrcode",
+      "url": "https://github.com/sjqtentacles/sml-qrcode",
+      "description": "Pure Standard ML QR code generator (Reed-Solomon GF(256) + masking) (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "qrcode",
+        "reed-solomon",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-raft",
+      "url": "https://github.com/sjqtentacles/sml-raft",
+      "description": "Raft consensus as a pure deterministic state machine in Standard ML: leader election, log replication, commit quorum (MLton + Poly/ML)",
+      "topics": [
+        "consensus",
+        "distributed-systems",
+        "leader-election",
+        "log-replication",
+        "mlton",
+        "polyml",
+        "pure",
+        "raft",
+        "sml",
+        "standard-ml",
+        "state-machine"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-random",
+      "url": "https://github.com/sjqtentacles/sml-random",
+      "description": "Splittable deterministic PRNG (SplitMix64) for Standard ML: tokens, nonces, session IDs. Reproducible seeded streams. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "mlton",
+        "polyml",
+        "prng",
+        "pure",
+        "random",
+        "sjqtentacles-web",
+        "sml",
+        "splitmix64",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-raster",
+      "url": "https://github.com/sjqtentacles/sml-raster",
+      "description": "Pure Standard ML 2D rasterizer: lines, rects, circles, triangles, polygons into RGBA8 images (MLton + Poly/ML)",
+      "topics": [
+        "2d-graphics",
+        "drawing",
+        "graphics",
+        "image",
+        "mlton",
+        "polyml",
+        "rasterizer",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rational",
+      "url": "https://github.com/sjqtentacles/sml-rational",
+      "description": "Exact rational-number arithmetic for Standard ML, built on IntInf. Portable (Basis-only), tested on MLton and Poly/ML.",
+      "topics": [
+        "arbitrary-precision",
+        "exact-arithmetic",
+        "fractions",
+        "library",
+        "mlton",
+        "numerics",
+        "polyml",
+        "rational-numbers",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rbtree",
+      "url": "https://github.com/sjqtentacles/sml-rbtree",
+      "description": "Persistent functional red-black maps and sets in pure Standard ML (polymorphic keys, MLton + Poly/ML)",
+      "topics": [
+        "data-structures",
+        "functional",
+        "map",
+        "mlton",
+        "persistent",
+        "polyml",
+        "red-black-tree",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-readline",
+      "url": "https://github.com/sjqtentacles/sml-readline",
+      "description": "Pure Standard ML line-editor state machine: key model, ANSI decoder, history, kill-ring, completion hook (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "library",
+        "line-editor",
+        "mlton",
+        "polyml",
+        "pure",
+        "readline",
+        "repl",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-recscheme",
+      "url": "https://github.com/sjqtentacles/sml-recscheme",
+      "description": "Recursion schemes (cata/ana/para/hylo) over functor fixpoints in pure Standard ML",
+      "topics": [
+        "catamorphism",
+        "functional-programming",
+        "hylomorphism",
+        "mlton",
+        "polyml",
+        "recursion-schemes",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rederiv",
+      "url": "https://github.com/sjqtentacles/sml-rederiv",
+      "description": "A Standard ML regular-expression engine using Brzozowski derivatives, with search, replace, and bounded quantifiers",
+      "topics": [
+        "brzozowski-derivatives",
+        "functional-programming",
+        "mlton",
+        "parsing",
+        "polyml",
+        "regex",
+        "regular-expressions",
+        "sml",
+        "smlpkg",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-redis",
+      "url": "https://github.com/sjqtentacles/sml-redis",
+      "description": "Pure Standard ML RESP protocol codec and Redis command builders (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "protocol",
+        "pure",
+        "redis",
+        "resp",
+        "resp3",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rewrite",
+      "url": "https://github.com/sjqtentacles/sml-rewrite",
+      "description": "First-order term rewriting in pure Standard ML: unification, matching, LPO, critical pairs, and Knuth-Bendix completion (dual-compiler MLton + Poly/ML).",
+      "topics": [
+        "knuth-bendix",
+        "mlton",
+        "polyml",
+        "rewriting",
+        "sml",
+        "standard-ml",
+        "term-rewriting",
+        "theorem-proving",
+        "unification"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ripemd160",
+      "url": "https://github.com/sjqtentacles/sml-ripemd160",
+      "description": "RIPEMD-160 cryptographic hash for Standard ML (Bitcoin hash160), verified against the official test vectors. Pure, dual-compiler.",
+      "topics": [
+        "bitcoin",
+        "cryptography",
+        "deterministic",
+        "hash",
+        "hashing",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "ripemd-160",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rlp",
+      "url": "https://github.com/sjqtentacles/sml-rlp",
+      "description": "Recursive Length Prefix (RLP) encoder/decoder for Ethereum in pure Standard ML",
+      "topics": [
+        "blockchain",
+        "codec",
+        "ethereum",
+        "mlton",
+        "polyml",
+        "rlp",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-robots",
+      "url": "https://github.com/sjqtentacles/sml-robots",
+      "description": "Pure Standard ML robots.txt parser and matcher (RFC 9309) — dependency-free, MLton + Poly/ML",
+      "topics": [
+        "crawler",
+        "mlton",
+        "polyml",
+        "rfc9309",
+        "robots-exclusion",
+        "robots-txt",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-roguelike",
+      "url": "https://github.com/sjqtentacles/sml-roguelike",
+      "description": "Roguelike building blocks (Brogue-style flow maps, autotiling, deterministic seeded placement) on top of sml-astar, in pure Standard ML for MLton and Poly/ML",
+      "topics": [
+        "autotiling",
+        "dijkstra-map",
+        "mlton",
+        "polyml",
+        "procedural-generation",
+        "roguelike",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rope",
+      "url": "https://github.com/sjqtentacles/sml-rope",
+      "description": "Persistent rope data structure with Fibonacci rebalancing in pure Standard ML",
+      "topics": [
+        "data-structures",
+        "mlton",
+        "persistent",
+        "polyml",
+        "rope",
+        "sml",
+        "standard-ml",
+        "text-editing"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-router",
+      "url": "https://github.com/sjqtentacles/sml-router",
+      "description": "Pure HTTP router for Standard ML: path patterns with :params and *wildcards, method dispatch, request->response handlers. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "http",
+        "mlton",
+        "polyml",
+        "pure",
+        "router",
+        "routing",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "web"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rsa",
+      "url": "https://github.com/sjqtentacles/sml-rsa",
+      "description": "Pure Standard ML RSA: keygen, PKCS#1 v1.5 / OAEP / PSS, DER/PEM keys (MLton + Poly/ML)",
+      "topics": [
+        "cryptography",
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "rsa",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-rtree",
+      "url": "https://github.com/sjqtentacles/sml-rtree",
+      "description": "R-tree spatial index in pure Standard ML: quadratic-split insertion, window/containment/point-stab/nearest queries over rectangles. Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "bounding-box",
+        "mlton",
+        "polyml",
+        "r-tree",
+        "range-query",
+        "sml",
+        "spatial-index",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sanitize",
+      "url": "https://github.com/sjqtentacles/sml-sanitize",
+      "description": "Allowlist HTML sanitizer in pure Standard ML (MLton + Poly/ML), built on sml-html",
+      "topics": [
+        "html",
+        "mlton",
+        "polyml",
+        "sanitizer",
+        "security",
+        "sml",
+        "standard-ml",
+        "xss"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sat",
+      "url": "https://github.com/sjqtentacles/sml-sat",
+      "description": "DPLL SAT solver with a DIMACS CNF parser, in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "dimacs",
+        "dpll",
+        "logic",
+        "mlton",
+        "polyml",
+        "sat-solver",
+        "sml",
+        "standard-ml",
+        "theorem-proving"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-schema",
+      "url": "https://github.com/sjqtentacles/sml-schema",
+      "description": "JSON Schema (draft 2020-12) parser and validator in pure Standard ML, built on sml-json (MLton + Poly/ML)",
+      "topics": [
+        "draft-2020-12",
+        "json",
+        "json-schema",
+        "mlton",
+        "polyml",
+        "pure",
+        "sml",
+        "standard-ml",
+        "validation"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-score",
+      "url": "https://github.com/sjqtentacles/sml-score",
+      "description": "Musical score data model in pure Standard ML, built on sml-music and sml-midi: rational beat durations, chords/scales, transposition, and Standard MIDI File rendering (MLton + Poly/ML).",
+      "topics": [
+        "midi",
+        "mlton",
+        "music",
+        "music-theory",
+        "polyml",
+        "score",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-script",
+      "url": "https://github.com/sjqtentacles/sml-script",
+      "description": "Bitcoin Script stack machine interpreter (subset) in pure Standard ML",
+      "topics": [
+        "bitcoin-script",
+        "blockchain",
+        "mlton",
+        "polyml",
+        "sml",
+        "stack-machine",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-secp256k1",
+      "url": "https://github.com/sjqtentacles/sml-secp256k1",
+      "description": "ECDSA and Schnorr (BIP-340) signatures over secp256k1 in pure Standard ML",
+      "topics": [
+        "bitcoin",
+        "cryptography",
+        "ecdsa",
+        "elliptic-curve",
+        "mlton",
+        "polyml",
+        "schnorr",
+        "secp256k1",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-semver",
+      "url": "https://github.com/sjqtentacles/sml-semver",
+      "description": "Pure Standard ML SemVer 2.0.0 parser, comparison, and range matching (MLton + Poly/ML, deterministic).",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "semantic-versioning",
+        "semver",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "versioning"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sequencer",
+      "url": "https://github.com/sjqtentacles/sml-sequencer",
+      "description": "Step/event sequencer and drum machine in pure Standard ML on sml-midi + sml-music: grid patterns, GM drums, Euclidean (Bjorklund) rhythms, and Standard MIDI File output (MLton + Poly/ML).",
+      "topics": [
+        "drum-machine",
+        "euclidean-rhythm",
+        "midi",
+        "mlton",
+        "music",
+        "polyml",
+        "sequencer",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-serve",
+      "url": "https://github.com/sjqtentacles/sml-serve",
+      "description": "Design doc (not a buildable library) for the MLton-only socket adapter that drives an sml-web app via sml-async: the one impure edge of the pure-SML web stack.",
+      "topics": [
+        "design-doc",
+        "documentation",
+        "mlton",
+        "sjqtentacles-web",
+        "sml",
+        "sockets",
+        "standard-ml",
+        "web-framework",
+        "web-server"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-session",
+      "url": "https://github.com/sjqtentacles/sml-session",
+      "description": "Pure session handling for Standard ML: one string->string model with in-memory and stateless HMAC-signed-cookie backends. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "mlton",
+        "polyml",
+        "pure",
+        "sessions",
+        "signed-cookies",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "web"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sexp",
+      "url": "https://github.com/sjqtentacles/sml-sexp",
+      "description": "S-expression reader/writer (Lisp/Scheme atoms, lists, quote forms; line + block comments) for Standard ML, built on sml-parsec. Pure, dual-compiler.",
+      "topics": [
+        "lisp",
+        "mlton",
+        "parser",
+        "polyml",
+        "pure",
+        "s-expressions",
+        "scheme",
+        "serialization",
+        "sexp",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sha3",
+      "url": "https://github.com/sjqtentacles/sml-sha3",
+      "description": "Keccak-f[1600] sponge, SHA3-224/256/384/512, SHAKE128/SHAKE256 XOF, and KMAC in pure Standard ML",
+      "topics": [
+        "cryptography",
+        "hash",
+        "keccak",
+        "mlton",
+        "polyml",
+        "sha3",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-shamir",
+      "url": "https://github.com/sjqtentacles/sml-shamir",
+      "description": "Pure Standard ML Shamir Secret Sharing over GF(256) (MLton + Poly/ML)",
+      "topics": [
+        "cryptography",
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "secret-sharing",
+        "shamir",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sheet",
+      "url": "https://github.com/sjqtentacles/sml-sheet",
+      "description": "A pure Standard ML spreadsheet engine: A1 addressing, recursive-descent formula parser, and dependency-ordered recalc with cycle detection (MLton + Poly/ML)",
+      "topics": [
+        "dependency-graph",
+        "formula-parser",
+        "mlton",
+        "polyml",
+        "recalculation",
+        "sml",
+        "spreadsheet",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-signal",
+      "url": "https://github.com/sjqtentacles/sml-signal",
+      "description": "Pure-SML functional reactive programming: deterministic time-varying signals and event streams (map/combine/foldp), no clock or FFI, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "deterministic",
+        "frp",
+        "functional-reactive-programming",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "reactive",
+        "signals",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-simplex",
+      "url": "https://github.com/sjqtentacles/sml-simplex",
+      "description": "Linear and mixed-integer programming in pure Standard ML: two-phase simplex (Bland's rule) + branch-and-bound, dual-compiler (MLton & Poly/ML).",
+      "topics": [
+        "linear-programming",
+        "milp",
+        "mlton",
+        "optimization",
+        "polyml",
+        "simplex",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-skiplist",
+      "url": "https://github.com/sjqtentacles/sml-skiplist",
+      "description": "Probabilistic skip list ordered map and set functor in pure Standard ML",
+      "topics": [
+        "data-structures",
+        "mlton",
+        "ordered-map",
+        "polyml",
+        "skip-list",
+        "sml",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-smt",
+      "url": "https://github.com/sjqtentacles/sml-smt",
+      "description": "Lazy DPLL(T) SMT solver in pure Standard ML over the vendored sml-sat DPLL core: EUF (congruence closure) + LRA (Fourier-Motzkin). Dual-compiler MLton + Poly/ML.",
+      "topics": [
+        "congruence-closure",
+        "dpll-t",
+        "fourier-motzkin",
+        "mlton",
+        "polyml",
+        "sml",
+        "smt",
+        "smt-solver",
+        "standard-ml",
+        "theorem-proving"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-smtp",
+      "url": "https://github.com/sjqtentacles/sml-smtp",
+      "description": "SMTP (RFC 5321) codec, RFC 5322 message assembly, and a sans-IO client state machine in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "email",
+        "mime",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc5321",
+        "rfc5322",
+        "sans-io",
+        "sml",
+        "smtp",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-specfun",
+      "url": "https://github.com/sjqtentacles/sml-specfun",
+      "description": "Pure Standard ML special functions: gamma, beta, erf, incomplete gamma/beta (MLton + Poly/ML, deterministic).",
+      "topics": [
+        "deterministic",
+        "gamma",
+        "library",
+        "math",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "special-functions",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sql",
+      "url": "https://github.com/sjqtentacles/sml-sql",
+      "description": "Pure in-memory SQL query engine (tokenizer + recursive-descent parser + evaluator) in Standard ML, no dependencies",
+      "topics": [
+        "database",
+        "mlton",
+        "parser",
+        "polyml",
+        "query-engine",
+        "relational",
+        "sml",
+        "sql",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sqlite",
+      "url": "https://github.com/sjqtentacles/sml-sqlite",
+      "description": "Pure Standard ML reader for the SQLite database file format: B-tree pages, native varint, record codec - zero dependencies",
+      "topics": [
+        "btree",
+        "database",
+        "file-format",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "sqlite",
+        "standard-ml",
+        "varint"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sse",
+      "url": "https://github.com/sjqtentacles/sml-sse",
+      "description": "Pure Standard ML codec for Server-Sent Events (text/event-stream) — dependency-free, MLton + Poly/ML",
+      "topics": [
+        "codec",
+        "event-stream",
+        "mlton",
+        "polyml",
+        "server-sent-events",
+        "sml",
+        "sse",
+        "standard-ml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ssg",
+      "url": "https://github.com/sjqtentacles/sml-ssg",
+      "description": "Pure Standard ML static-site-generator core: frontmatter + markdown + template -> HTML (MLton + Poly/ML)",
+      "topics": [
+        "html",
+        "markdown",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "static-site-generator",
+        "templating"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-stats",
+      "url": "https://github.com/sjqtentacles/sml-stats",
+      "description": "Pure Standard ML statistics: descriptive stats, distributions, regression, correlation, and hypothesis tests (t / chi-square / F) — MLton + Poly/ML",
+      "topics": [
+        "correlation",
+        "deterministic",
+        "distributions",
+        "hypothesis-testing",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "regression",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "statistics"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-stream",
+      "url": "https://github.com/sjqtentacles/sml-stream",
+      "description": "Pure Standard ML lazy, fairly-interleaving streams (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "lazy",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "stream"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-stringalgo",
+      "url": "https://github.com/sjqtentacles/sml-stringalgo",
+      "description": "Classic string matching & analysis in pure Standard ML: KMP, Z-function, Boyer-Moore, Rabin-Karp, Aho-Corasick, Manacher (MLton + Poly/ML)",
+      "topics": [
+        "aho-corasick",
+        "algorithms",
+        "knuth-morris-pratt",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "string-matching"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-sudoku",
+      "url": "https://github.com/sjqtentacles/sml-sudoku",
+      "description": "Deterministic 9x9 Sudoku constraint solver (candidate elimination + MRV backtracking) in pure Standard ML for MLton and Poly/ML",
+      "topics": [
+        "backtracking",
+        "constraint-solver",
+        "mlton",
+        "polyml",
+        "puzzle",
+        "sml",
+        "standard-ml",
+        "sudoku"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-suffixarray",
+      "url": "https://github.com/sjqtentacles/sml-suffixarray",
+      "description": "Suffix arrays, Kasai LCP, Burrows-Wheeler transform/inverse, and SA substring search in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "algorithms",
+        "burrows-wheeler-transform",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "string-matching",
+        "suffix-array"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-svg",
+      "url": "https://github.com/sjqtentacles/sml-svg",
+      "description": "Pure Standard ML SVG document builder and pretty-printed serializer (MLton + Poly/ML)",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "svg",
+        "vector-graphics"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-synth",
+      "url": "https://github.com/sjqtentacles/sml-synth",
+      "description": "Higher-level music synthesis in pure Standard ML: wavetable, additive & FM synthesis, voices/ADSR, polyphonic mixdown, WAV export (MLton + Poly/ML)",
+      "topics": [
+        "audio",
+        "fm-synthesis",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "synthesis",
+        "synthesizer",
+        "wav",
+        "wavetable"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tar",
+      "url": "https://github.com/sjqtentacles/sml-tar",
+      "description": "Pure Standard ML POSIX ustar tar archive read/write (MLton + Poly/ML)",
+      "topics": [
+        "archive",
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "tar"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tea",
+      "url": "https://github.com/sjqtentacles/sml-tea",
+      "description": "The Elm Architecture in pure Standard ML: Model-View-Update with zero-FFI server-side rendering, sml-vdom patches, sml-css styling, and sml-signal subscriptions. Dual-compiler (MLton + Poly/ML), byte-identical, deterministic.",
+      "topics": [
+        "deterministic",
+        "elm-architecture",
+        "library",
+        "mlton",
+        "mvu",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "ssr",
+        "standard-ml",
+        "tea"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-template",
+      "url": "https://github.com/sjqtentacles/sml-template",
+      "description": "Logic-light Mustache/Handlebars-style templating engine in pure Standard ML (MLton + Poly/ML), with HTML escaping",
+      "topics": [
+        "handlebars",
+        "html",
+        "mlton",
+        "mustache",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "template-engine",
+        "templating"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tensor",
+      "url": "https://github.com/sjqtentacles/sml-tensor",
+      "description": "N-dimensional tensors in pure Standard ML: broadcasting, reshape/transpose, reductions, matmul, einsum",
+      "topics": [
+        "einsum",
+        "functional-programming",
+        "linear-algebra",
+        "mlton",
+        "ndarray",
+        "numerical-computing",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "tensor"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-test",
+      "url": "https://github.com/sjqtentacles/sml-test",
+      "description": "A Standard ML test framework with property-based testing, QuickCheck-style generators, forAll, and shrinking",
+      "topics": [
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "property-based-testing",
+        "quickcheck",
+        "sml",
+        "standard-ml",
+        "test-framework",
+        "testing"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-text-layout",
+      "url": "https://github.com/sjqtentacles/sml-text-layout",
+      "description": "Pure-SML Unicode-aware text layout: greedy line breaking, word wrap, and grapheme-cluster measurement on bitmap fonts. Deterministic, byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "deterministic",
+        "font",
+        "gui",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "text",
+        "text-layout",
+        "unicode",
+        "word-wrap"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tls",
+      "url": "https://github.com/sjqtentacles/sml-tls",
+      "description": "TLS 1.3 (RFC 8446) sans-IO state machine in pure Standard ML, verified against RFC 8448 vectors. Experimental, not for production security.",
+      "topics": [
+        "cryptography",
+        "experimental",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc8446",
+        "sans-io",
+        "sml",
+        "standard-ml",
+        "tls",
+        "tls13"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tls-tool",
+      "url": "https://github.com/sjqtentacles/sml-tls-tool",
+      "description": "Conformance and fuzzing harnesses for sml-tls: BoGo shim, tlsfuzzer driver, OpenSSL differential, AFL persistent-mode fuzzers. Impure, quarantined.",
+      "topics": [
+        "afl",
+        "bogo",
+        "conformance",
+        "fuzzing",
+        "mlton",
+        "openssl",
+        "security",
+        "sml",
+        "standard-ml",
+        "testing",
+        "tls",
+        "tlsfuzzer"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-toml",
+      "url": "https://github.com/sjqtentacles/sml-toml",
+      "description": "A Standard ML TOML parser and serializer (subset of v1.0.0) built on parser combinators",
+      "topics": [
+        "configuration",
+        "functional-programming",
+        "mlton",
+        "parser",
+        "parser-combinators",
+        "polyml",
+        "serialization",
+        "sml",
+        "standard-ml",
+        "toml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-totp",
+      "url": "https://github.com/sjqtentacles/sml-totp",
+      "description": "Pure Standard ML HOTP/TOTP (RFC 4226 / RFC 6238), HMAC-SHA1/256/512 (MLton + Poly/ML)",
+      "topics": [
+        "2fa",
+        "deterministic",
+        "hotp",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "totp"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-trace",
+      "url": "https://github.com/sjqtentacles/sml-trace",
+      "description": "OpenTelemetry-aligned tracing in pure Standard ML: spans, W3C traceparent codec, OTLP/JSON export (MLton + Poly/ML)",
+      "topics": [
+        "mlton",
+        "observability",
+        "opentelemetry",
+        "otlp",
+        "polyml",
+        "pure",
+        "sml",
+        "spans",
+        "standard-ml",
+        "traceparent",
+        "tracing"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-transducer",
+      "url": "https://github.com/sjqtentacles/sml-transducer",
+      "description": "Composable, fused transducers (map/filter/take/mapcat/dedupe) in pure Standard ML",
+      "topics": [
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "stream-fusion",
+        "transducers"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-treap",
+      "url": "https://github.com/sjqtentacles/sml-treap",
+      "description": "Persistent seeded treap (randomized balanced BST) in pure Standard ML: insert/delete/split/merge, ordered map, invariant validators — deterministic and byte-identical on MLton and Poly/ML.",
+      "topics": [
+        "balanced-tree",
+        "data-structures",
+        "mlton",
+        "polyml",
+        "randomized",
+        "sml",
+        "standard-ml",
+        "treap"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-trie",
+      "url": "https://github.com/sjqtentacles/sml-trie",
+      "description": "Merkle Patricia Trie for key-value storage with cryptographic root hashing in pure Standard ML",
+      "topics": [
+        "blockchain",
+        "ethereum",
+        "merkle",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "trie"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tui",
+      "url": "https://github.com/sjqtentacles/sml-tui",
+      "description": "Pure Elm-architecture terminal UI toolkit for Standard ML: declarative widgets, an immutable screen buffer, and ANSI rendering with zero FFI (MLton + Poly/ML)",
+      "topics": [
+        "ansi",
+        "cli",
+        "elm-architecture",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "terminal",
+        "tui",
+        "widgets"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-tween",
+      "url": "https://github.com/sjqtentacles/sml-tween",
+      "description": "30 easing functions and keyframe timeline tweening in pure Standard ML",
+      "topics": [
+        "animation",
+        "easing",
+        "gamedev",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "tweening"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ui",
+      "url": "https://github.com/sjqtentacles/sml-ui",
+      "description": "Pure, self-drawn immediate-mode GUI toolkit for Standard ML - deterministic, byte-identical rendering across MLton and Poly/ML, tested headlessly with golden images.",
+      "topics": [
+        "canvas2d",
+        "deterministic",
+        "golden-testing",
+        "gui",
+        "immediate-mode-gui",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "widget-toolkit"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-unicode",
+      "url": "https://github.com/sjqtentacles/sml-unicode",
+      "description": "Unicode utilities for Standard ML: UTF-8/UTF-16 codecs, NFC/NFD normalization, case folding, grapheme segmentation, and display width. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "library",
+        "mlton",
+        "normalization",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "text",
+        "unicode",
+        "utf-16",
+        "utf-8"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-unionfind",
+      "url": "https://github.com/sjqtentacles/sml-unionfind",
+      "description": "Disjoint-set / union-find (union by rank + path compression) for Standard ML. Pure, dual-compiler.",
+      "topics": [
+        "algorithms",
+        "data-structures",
+        "deterministic",
+        "disjoint-set",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "union-find"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-units",
+      "url": "https://github.com/sjqtentacles/sml-units",
+      "description": "Runtime dimensional analysis for Standard ML: dimension-checked physical quantities over the SI base units. Portable across MLton and Poly/ML.",
+      "topics": [
+        "dimensional-analysis",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "units"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-uri",
+      "url": "https://github.com/sjqtentacles/sml-uri",
+      "description": "RFC 3986 URI + x-www-form-urlencoded for Standard ML: percent codec, parse/toString, reference resolution, query handling, CLI. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "mlton",
+        "percent-encoding",
+        "polyml",
+        "pure",
+        "rfc3986",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "uri",
+        "url"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-utxo",
+      "url": "https://github.com/sjqtentacles/sml-utxo",
+      "description": "Bitcoin-style Unspent Transaction Output (UTXO) model in pure Standard ML",
+      "topics": [
+        "bitcoin",
+        "blockchain",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "utxo"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-uuid",
+      "url": "https://github.com/sjqtentacles/sml-uuid",
+      "description": "RFC 4122/9562 UUID parse, format, and generate for Standard ML (MLton + Poly/ML): v4 + v7, deterministic (caller-supplied randomness), I/O-free.",
+      "topics": [
+        "mlton",
+        "polyml",
+        "rfc4122",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "uuid",
+        "uuid-v5"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-varint",
+      "url": "https://github.com/sjqtentacles/sml-varint",
+      "description": "Pure Standard ML variable-length integer codec: LEB128, zigzag, protobuf varints (MLton + Poly/ML, byte-exact).",
+      "topics": [
+        "deterministic",
+        "encoding",
+        "leb128",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "varint"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-vdom",
+      "url": "https://github.com/sjqtentacles/sml-vdom",
+      "description": "Virtual DOM in pure Standard ML: diff two sml-html trees into a minimal patch list with a round-tripping apply oracle. Dual-compiler (MLton + Poly/ML), byte-identical, deterministic.",
+      "topics": [
+        "deterministic",
+        "diff",
+        "html",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "vdom",
+        "virtual-dom"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-vm",
+      "url": "https://github.com/sjqtentacles/sml-vm",
+      "description": "A small stack-based bytecode VM, label-resolving assembler, and disassembler in pure Standard ML (MLton + Poly/ML).",
+      "topics": [
+        "assembler",
+        "bytecode",
+        "interpreter",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "virtual-machine"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-wasm",
+      "url": "https://github.com/sjqtentacles/sml-wasm",
+      "description": "Pure Standard ML WebAssembly toolkit: binary .wasm decoder, .wat text parser, and a stack-machine interpreter",
+      "topics": [
+        "bytecode",
+        "functional-programming",
+        "interpreter",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "wasm",
+        "wat",
+        "webassembly"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-wav",
+      "url": "https://github.com/sjqtentacles/sml-wav",
+      "description": "Pure Standard ML WAV I/O and synth/DSP: oscillators, ADSR, biquad filters (MLton + Poly/ML)",
+      "topics": [
+        "audio",
+        "deterministic",
+        "dsp",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "wav"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-web",
+      "url": "https://github.com/sjqtentacles/sml-web",
+      "description": "Umbrella of the pure-SML web stack: one request->response app wiring router + middleware + sessions + negotiation. Pure, deterministic, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "framework",
+        "http",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "web",
+        "web-framework"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-window",
+      "url": "https://github.com/sjqtentacles/sml-window",
+      "description": "Impure minifb desktop-window backend for the pure sml-ui toolkit: opens a real OS window and runs the live interactive widget demo (MLton FFI, macOS). Quarantined impure tool.",
+      "topics": [
+        "desktop",
+        "ffi",
+        "gui",
+        "immediate-mode",
+        "minifb",
+        "mlton",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "tool",
+        "ui",
+        "window"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-ws",
+      "url": "https://github.com/sjqtentacles/sml-ws",
+      "description": "RFC 6455 WebSockets for Standard ML: Sec-WebSocket-Accept handshake, frame encode/decode, fragmentation reassembly. Verified against RFC vectors. Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "mlton",
+        "polyml",
+        "pure",
+        "rfc6455",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "websocket",
+        "websockets"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-x25519",
+      "url": "https://github.com/sjqtentacles/sml-x25519",
+      "description": "Curve25519 Diffie-Hellman key exchange (RFC 7748) in pure Standard ML",
+      "topics": [
+        "cryptography",
+        "curve25519",
+        "diffie-hellman",
+        "mlton",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "x25519"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-x509",
+      "url": "https://github.com/sjqtentacles/sml-x509",
+      "description": "Pure Standard ML X.509 certificate parser and RSA signature verifier (MLton + Poly/ML, deterministic).",
+      "topics": [
+        "certificate",
+        "deterministic",
+        "library",
+        "mlton",
+        "pki",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "tls",
+        "x509"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-xlsx",
+      "url": "https://github.com/sjqtentacles/sml-xlsx",
+      "description": "Pure Standard ML .xlsx (Office Open XML) reader/writer: sheets, shared strings, formulas",
+      "topics": [
+        "excel",
+        "functional-programming",
+        "mlton",
+        "ooxml",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "spreadsheet",
+        "standard-ml",
+        "xlsx"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-xml",
+      "url": "https://github.com/sjqtentacles/sml-xml",
+      "description": "Namespaced XML parser, DOM, and serializer for Standard ML (entities, CDATA, comments). Pure, dual-compiler.",
+      "topics": [
+        "deterministic",
+        "dom",
+        "library",
+        "markup",
+        "mlton",
+        "parser",
+        "polyml",
+        "pure",
+        "serialization",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "xml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-yaml",
+      "url": "https://github.com/sjqtentacles/sml-yaml",
+      "description": "Subset YAML 1.2 parser (block + flow, multi-doc) in pure Standard ML",
+      "topics": [
+        "configuration",
+        "mlton",
+        "parser",
+        "polyml",
+        "serialization",
+        "sml",
+        "standard-ml",
+        "yaml"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-zip",
+      "url": "https://github.com/sjqtentacles/sml-zip",
+      "description": "Pure Standard ML PK ZIP archive read/write (store + deflate, CRC-32, central directory) (MLton + Poly/ML)",
+      "topics": [
+        "archive",
+        "compression",
+        "deterministic",
+        "library",
+        "mlton",
+        "polyml",
+        "pure",
+        "sjqtentacles-web",
+        "sml",
+        "standard-ml",
+        "zip"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-zipper",
+      "url": "https://github.com/sjqtentacles/sml-zipper",
+      "description": "Generic list and rose-tree zippers in pure Standard ML (MLton + Poly/ML)",
+      "topics": [
+        "data-structures",
+        "functional",
+        "huet",
+        "mlton",
+        "persistent",
+        "polyml",
+        "sml",
+        "standard-ml",
+        "zipper"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    },
+    {
+      "name": "sml-zstd",
+      "url": "https://github.com/sjqtentacles/sml-zstd",
+      "description": "Pure Standard ML Zstandard (RFC 8878) decompressor plus a raw-block compressor - zero dependencies",
+      "topics": [
+        "codec",
+        "compression",
+        "functional-programming",
+        "mlton",
+        "polyml",
+        "sml",
+        "smlpkg",
+        "standard-ml",
+        "zstandard",
+        "zstd"
+      ],
+      "stars": 0,
+      "language": "Standard ML"
+    }
+  ]
+}

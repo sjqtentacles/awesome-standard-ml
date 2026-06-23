@@ -1,0 +1,118 @@
+# community.yml -- hand-curated community resources for Standard ML.
+# These render ABOVE the auto-generated sjqtentacles ecosystem catalog.
+# Edit freely; this file is the source of truth for the non-generated sections.
+
+sections:
+  - title: Compilers & runtimes
+    blurb: Implementations of Standard ML you can actually run code with.
+    entries:
+      - name: MLton
+        url: http://mlton.org/
+        description: >-
+          A whole-program optimizing compiler producing fast standalone native
+          executables. The de-facto target for performance-sensitive SML.
+      - name: Standard ML of New Jersey (SML/NJ)
+        url: https://www.smlnj.org/
+        description: >-
+          A mature compiler and interactive system with a large library and the
+          Compilation Manager (CM).
+      - name: Poly/ML
+        url: https://www.polyml.org/
+        description: >-
+          A full implementation with a fast incremental compiler and REPL; the
+          implementation language of the Isabelle theorem prover.
+      - name: MLKit
+        url: https://www.elsman.com/mlkit/
+        description: >-
+          A compiler emphasizing region-based memory management and full
+          Definition compliance.
+      - name: Moscow ML
+        url: https://mosml.org/
+        description: >-
+          A lightweight implementation based on the CAML runtime, with
+          interactive and batch use.
+      - name: HaMLet
+        url: https://people.mpi-sws.org/~rossberg/hamlet/
+        description: >-
+          A faithful, reference-style implementation of the SML Definition,
+          intended as executable specification.
+      - name: SOSML
+        url: https://sosml.org/
+        description: An in-browser SML interpreter, handy for teaching and quick tries.
+
+  - title: Language standard & evolution
+    blurb: The Definition and ongoing successor-language work.
+    entries:
+      - name: The Definition of Standard ML (Revised)
+        url: https://mitpress.mit.edu/9780262631815/the-definition-of-standard-ml/
+        description: The formal semantics of the language (Milner, Tofte, Harper, MacQueen).
+      - name: Successor ML (sML)
+        url: https://github.com/SMLFamily/Successor-ML
+        description: >-
+          A community effort collecting incremental, backward-compatible
+          improvements to the language.
+      - name: SML Family GitHub
+        url: https://github.com/SMLFamily
+        description: Home of the Basis Library spec and successor-ML discussion.
+
+  - title: Learning resources
+    blurb: Books, courses and tutorials for learning Standard ML.
+    entries:
+      - name: "ML for the Working Programmer (Paulson)"
+        url: https://www.cl.cam.ac.uk/~lp15/MLbook/
+        description: A classic, practical introduction to programming in ML.
+      - name: "Programming in Standard ML (Harper)"
+        url: https://www.cs.cmu.edu/~rwh/isml/book.pdf
+        description: Robert Harper's free textbook used at Carnegie Mellon.
+      - name: "CMU 15-150: Principles of Functional Programming"
+        url: https://www.cs.cmu.edu/~15150/
+        description: CMU's functional programming course taught in Standard ML.
+      - name: Standard ML Basis Library
+        url: https://smlfamily.github.io/Basis/
+        description: Reference documentation for the standard Basis Library.
+      - name: "Learn X in Y minutes: Standard ML"
+        url: https://learnxinyminutes.com/docs/standard-ml/
+        description: A whirlwind syntax tour for programmers coming from other languages.
+
+  - title: Tooling (community)
+    blurb: Build tools, package managers, formatters and language servers outside this ecosystem.
+    entries:
+      - name: smlpkg
+        url: https://github.com/diku-dk/smlpkg
+        description: >-
+          A generic package manager for SML using Git/GitHub package paths;
+          the layout the sjqtentacles libraries vendor against.
+      - name: Millet
+        url: https://github.com/azdavis/millet
+        description: A language server and VS Code extension for Standard ML.
+      - name: smlfmt
+        url: https://github.com/shwestrick/smlfmt
+        description: A custom parser and pretty-printer / formatter for SML source.
+      - name: SML/NJ Compilation Manager (CM)
+        url: https://www.smlnj.org/doc/CM/
+        description: SML/NJ's dependency-tracking build system.
+      - name: ML Basis system (MLton)
+        url: http://mlton.org/MLBasis
+        description: MLton's `.mlb` system for programming in the large.
+
+  - title: Editor support
+    blurb: Syntax highlighting and IDE integration.
+    entries:
+      - name: VS Code SML extensions
+        url: https://marketplace.visualstudio.com/search?term=standard%20ml&target=VSCode
+        description: >-
+          Syntax highlighting and (via Millet) language-server features for
+          Standard ML in VS Code.
+      - name: sml-mode (Emacs)
+        url: https://elpa.nongnu.org/nongnu/sml-mode.html
+        description: The long-standing Emacs major mode for editing SML.
+      - name: Vim/Neovim SML support
+        url: https://github.com/jez/vim-better-sml
+        description: Improved Standard ML editing for Vim, including Merlin-style features.
+
+  - title: Other lists & indexes
+    blurb: Related curated lists and package indexes.
+    entries:
+      - name: "awesome-fp (functional programming)"
+        url: https://github.com/lucasviola/awesome-functional-programming
+        description: A broad list of functional-programming resources across languages.

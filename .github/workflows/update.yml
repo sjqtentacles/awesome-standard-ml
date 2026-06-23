@@ -1,0 +1,58 @@
+name: update
+
+# Re-harvest the sjqtentacles ecosystem weekly (and on demand), regenerate the
+# README, and open a PR if anything changed.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Harvest ecosystem from GitHub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/harvest.py
+
+      - name: Regenerate README
+        run: python scripts/generate.py
+
+      - name: Regenerate dependency graph
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/depgraph.py --gh
+
+      - name: Open PR if anything changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: refresh ecosystem catalog"
+          title: "chore: refresh ecosystem catalog"
+          body: |
+            Automated weekly re-harvest of the sjqtentacles Standard ML
+            ecosystem and README regeneration.
+
+            Review the categorization of any new repos; add a topic mapping or
+            an override in `data/categories.yml` if something landed in the
+            wrong category (or in `Misc`).
+          branch: chore/refresh-ecosystem
+          delete-branch: true
+          add-paths: |
+            data/ecosystem.generated.json
+            README.md
+            dependency-graph.md

@@ -1,0 +1,829 @@
+# categories.yml -- drives how scripts/generate.py groups the sjqtentacles
+# ecosystem libraries.
+#
+# Each library is placed in exactly ONE category: the FIRST category in this
+# list (top to bottom) that has a topic in common with the repo's GitHub
+# topics. So order matters -- put more specific / higher-priority categories
+# first. The `Misc` category at the end is a safety net; if a repo lands there,
+# add a topic mapping or an override rather than leaving it.
+#
+# `overrides` pins a specific repo to a specific category regardless of topics
+# (use sparingly, for genuinely ambiguous cases).
+#
+# `ignore_topics` are language/build/meta topics that must never be used to
+# categorize (they are present on nearly every repo).
+
+ignore_topics:
+  - standard-ml
+  - sml
+  - mlton
+  - polyml
+  - smlpkg
+  - pure
+  - functional-programming
+  - functional
+  - deterministic
+  - reproducible
+  - library
+  - sjqtentacles-web
+  - experimental
+  - persistent
+  - sans-io
+  - impure
+  - golden-testing
+
+categories:
+  - title: Developer tooling (SML self-tooling)
+    blurb: >-
+      The cluster of tools that operate on Standard ML itself: a frontend
+      (lexer/parser/AST), formatter, doc generator, language server, linter,
+      type elaborator, package/build tool, test frameworks and benchmarking.
+    topics:
+      - developer-tools
+      - tool
+      - language-server
+      - lsp
+      - json-rpc
+      - code-formatter
+      - formatter
+      - pretty-printer
+      - pretty-printing
+      - wadler
+      - linter
+      - static-analysis
+      - type-checker
+      - type-inference
+      - type-system
+      - type-theory
+      - hindley-milner
+      - algorithm-w
+      - let-polymorphism
+      - ast
+      - lexer
+      - compiler
+      - documentation
+      - documentation-generator
+      - package-manager
+      - build-tool
+      - dependency-resolution
+      - mlb
+      - benchmark
+      - operation-counting
+      - testing
+      - test-framework
+      - property-testing
+      - property-based-testing
+      - quickcheck
+      - semantic-versioning
+      - semver
+      - versioning
+      - line-editor
+      - readline
+      - repl
+      - text-editor
+      - piece-table
+      - cursor
+      - undo-redo
+      - design-doc
+
+  - title: Cryptography & security
+    blurb: >-
+      Hashes, ciphers, AEAD, public-key crypto, key derivation, TLS, X.509,
+      and related security primitives.
+    topics:
+      - cryptography
+      - security
+      - hash
+      - hashing
+      - sha1
+      - sha256
+      - sha512
+      - sha3
+      - keccak
+      - blake3
+      - ripemd-160
+      - hmac
+      - hmac-sha256
+      - aead
+      - aes
+      - aes-gcm
+      - gcm
+      - cipher
+      - chacha20
+      - chacha20-poly1305
+      - poly1305
+      - kdf
+      - hkdf
+      - pbkdf2
+      - scrypt
+      - tls
+      - tls13
+      - x509
+      - certificate
+      - pki
+      - pem
+      - asn1
+      - der
+      - rsa
+      - ecdsa
+      - ecdh
+      - elliptic-curve
+      - curve25519
+      - x25519
+      - ed25519
+      - secp256k1
+      - secp256r1
+      - p-256
+      - schnorr
+      - signatures
+      - diffie-hellman
+      - cose
+      - jwt
+      - jws
+      - oauth
+      - oauth2
+      - pkce
+      - authentication
+      - 2fa
+      - hotp
+      - totp
+      - secret-sharing
+      - shamir
+      - merkle
+      - merkle-tree
+      - csrf
+      - xss
+      - sanitizer
+      - signed-cookies
+
+  - title: Blockchain & cryptocurrency
+    blurb: Bitcoin, Ethereum and related ledger/encoding primitives.
+    topics:
+      - blockchain
+      - bitcoin
+      - bitcoin-script
+      - ethereum
+      - cryptocurrency
+      - utxo
+      - bip32
+      - bip39
+      - hd-wallet
+      - mnemonic
+      - bech32
+      - segwit
+      - base58
+      - base58check
+      - rlp
+
+  - title: Encoding, serialization & compression
+    blurb: >-
+      Wire formats, text/binary codecs, structured-data parsers, and
+      compression algorithms.
+    topics:
+      - codec
+      - encoding
+      - serialization
+      - serializer
+      - json
+      - json-parser
+      - cbor
+      - msgpack
+      - protobuf
+      - protocol-buffers
+      - yaml
+      - toml
+      - xml
+      - csv
+      - tsv
+      - sexp
+      - s-expressions
+      - base64
+      - base32
+      - base16
+      - hex
+      - varint
+      - leb128
+      - crc32
+      - compression
+      - decompression
+      - deflate
+      - inflate
+      - gzip
+      - zlib
+      - zstd
+      - zstandard
+      - lz4
+      - lz77
+      - lzw
+      - huffman
+      - flatedecode
+      - burrows-wheeler-transform
+      - tar
+      - zip
+      - archive
+      - reed-solomon
+
+  - title: Web, networking & protocols
+    blurb: >-
+      HTTP and friends, web framework pieces, sockets, and internet protocols.
+    topics:
+      - web
+      - web-framework
+      - web-server
+      - http
+      - http-parser
+      - http-client
+      - http2
+      - hpack
+      - websocket
+      - websockets
+      - sse
+      - server-sent-events
+      - event-stream
+      - router
+      - routing
+      - middleware
+      - sessions
+      - cookies
+      - forms
+      - content-negotiation
+      - media-type
+      - multipart
+      - uri
+      - url
+      - percent-encoding
+      - networking
+      - sockets
+      - dns
+      - dns-cache
+      - resolver
+      - smtp
+      - email
+      - mqtt
+      - redis
+      - resp
+      - resp3
+      - graphql
+      - openapi
+      - swagger
+      - gemini
+      - gemini-protocol
+      - gemtext
+      - feed
+      - rss
+      - atom
+      - syndication
+      - robots-txt
+      - robots-exclusion
+      - crawler
+      - ipv4
+      - ipv6
+      - ip-address
+      - cidr
+      - git
+      - packfile
+      - version-control
+      - jsonpath
+
+  - title: Parsing & languages
+    blurb: >-
+      Parsers, interpreters, term rewriting, logic programming and small
+      language runtimes.
+    topics:
+      - parser
+      - parsing
+      - parser-combinators
+      - packrat-parsing
+      - peg
+      - regex
+      - regular-expressions
+      - brzozowski-derivatives
+      - interpreter
+      - lisp
+      - scheme
+      - lambda-calculus
+      - bytecode
+      - virtual-machine
+      - assembler
+      - stack-machine
+      - rewriting
+      - term-rewriting
+      - knuth-bendix
+      - unification
+      - logic-programming
+      - minikanren
+      - templating
+      - template-engine
+      - mustache
+      - handlebars
+      - markdown
+      - commonmark
+      - html
+      - dom
+      - markup
+      - css
+      - stylesheet
+      - glob
+      - pattern-matching
+      - aho-corasick
+      - knuth-morris-pratt
+      - string-matching
+
+  - title: Formal methods & logic
+    blurb: >-
+      Theorem proving, model checking, SAT/SMT solving and decision diagrams.
+    topics:
+      - theorem-proving
+      - proof-checker
+      - natural-deduction
+      - sequent
+      - formal-methods
+      - logic
+      - propositional-logic
+      - model-checking
+      - symbolic-model-checking
+      - ctl
+      - kripke-structure
+      - sat
+      - sat-solver
+      - dpll
+      - dimacs
+      - smt
+      - smt-solver
+      - dpll-t
+      - congruence-closure
+      - bdd
+      - binary-decision-diagram
+      - robdd
+      - truth-table
+
+  - title: Math, numeric & scientific
+    blurb: >-
+      Arbitrary precision, linear algebra, statistics, signal processing,
+      physics, astronomy and other numerics.
+    topics:
+      - math
+      - mathematics
+      - numerics
+      - numerical
+      - numerical-computing
+      - numerical-methods
+      - linear-algebra
+      - matrix
+      - tensor
+      - ndarray
+      - einsum
+      - vector
+      - complex-numbers
+      - arbitrary-precision
+      - big-integers
+      - bignum
+      - bigdecimal
+      - decimal
+      - fixed-point
+      - rational-numbers
+      - fractions
+      - exact-arithmetic
+      - number-theory
+      - primes
+      - modular-arithmetic
+      - algebra
+      - polynomials
+      - interpolation
+      - fft
+      - fourier
+      - dct
+      - dsp
+      - signal-processing
+      - statistics
+      - distributions
+      - regression
+      - correlation
+      - hypothesis-testing
+      - monte-carlo
+      - sampling
+      - estimation
+      - kalman-filter
+      - recursive-least-squares
+      - autodiff
+      - automatic-differentiation
+      - backpropagation
+      - neural-network
+      - deep-learning
+      - machine-learning
+      - clustering
+      - kmeans
+      - dbscan
+      - optimization
+      - linear-programming
+      - milp
+      - simplex
+      - assignment-problem
+      - hungarian-algorithm
+      - ode
+      - pde
+      - runge-kutta
+      - finite-difference
+      - heat-equation
+      - wave-equation
+      - integration
+      - special-functions
+      - gamma
+      - physics
+      - rigid-body
+      - verlet
+      - nbody
+      - barnes-hut
+      - gravity
+      - astronomy
+      - ephemeris
+      - kepler
+      - julian-date
+      - chemistry
+      - periodic-table
+      - molar-mass
+      - stoichiometry
+      - units
+      - dimensional-analysis
+      - geodesy
+      - haversine
+      - vincenty
+      - utm
+      - gis
+      - geojson
+      - money
+      - constants
+
+  - title: Data structures
+    blurb: >-
+      Trees, heaps, tries, maps, sets and other persistent/efficient
+      containers.
+    topics:
+      - data-structures
+      - trie
+      - patricia
+      - radix-tree
+      - prefix-search
+      - btree
+      - b-tree
+      - search-tree
+      - red-black-tree
+      - treap
+      - balanced-tree
+      - skip-list
+      - hamt
+      - hash-map
+      - ordered-map
+      - map
+      - immutable
+      - persistent-data-structures
+      - finger-tree
+      - sequence
+      - deque
+      - priority-queue
+      - pairing-heap
+      - rope
+      - zipper
+      - bitset
+      - rank-select
+      - succinct
+      - bloom-filter
+      - probabilistic
+      - union-find
+      - disjoint-set
+      - segment-tree
+      - fenwick-tree
+      - binary-indexed-tree
+      - range-query
+      - lru-cache
+      - lfu
+      - cache
+      - kd-tree
+      - r-tree
+      - spatial-index
+      - bounding-box
+      - nearest-neighbor
+
+  - title: Algorithms
+    blurb: >-
+      Graph, string, search and optimization algorithms not tied to a single
+      data structure.
+    topics:
+      - algorithms
+      - algorithm
+      - graph
+      - graph-algorithms
+      - shortest-path
+      - astar
+      - dijkstra
+      - dijkstra-map
+      - pathfinding
+      - dynamic-programming
+      - knapsack-problem
+      - combinatorial-optimization
+      - backtracking
+      - constraint-solver
+      - edit-distance
+      - levenshtein
+      - fuzzy-matching
+      - soundex
+      - suffix-array
+      - diff
+      - lcs
+      - myers
+      - patch
+      - markov-chain
+      - stochastic
+      - stationary-distribution
+      - convex-hull
+      - delaunay
+      - triangulation
+      - computational-geometry
+      - geometry
+
+  - title: Graphics, geometry & imaging
+    blurb: >-
+      2D/3D math, rasterization, image codecs, fonts, color, layout and
+      plotting.
+    topics:
+      - graphics
+      - 2d
+      - 2d-graphics
+      - 3d-math
+      - graphics-math
+      - opengl
+      - quaternion
+      - transforms
+      - camera
+      - frustum-culling
+      - raycasting
+      - raster
+      - rasterizer
+      - drawing
+      - canvas
+      - canvas2d
+      - vector-graphics
+      - svg
+      - image
+      - image-codec
+      - png
+      - bmp
+      - ppm
+      - tga
+      - gif
+      - qoi
+      - qrcode
+      - 3d-models
+      - mesh
+      - mesh-parser
+      - ply
+      - wavefront-obj
+      - font
+      - bdf
+      - text-rendering
+      - text-layout
+      - word-wrap
+      - layout
+      - flexbox
+      - color
+      - color-space
+      - color-science
+      - colorimetry
+      - cie
+      - cielab
+      - color-temperature
+      - hsl
+      - rgba
+      - srgb
+      - noise
+      - perlin-noise
+      - simplex-noise
+      - worley-noise
+      - fbm
+      - charts
+      - plotting
+      - dataviz
+      - pdf
+      - pdf-generation
+
+  - title: Audio & music
+    blurb: Synthesis, MIDI, music theory and audio file formats.
+    topics:
+      - audio
+      - music
+      - music-theory
+      - midi
+      - midi-adjacent
+      - smf
+      - smf-parser
+      - synthesis
+      - synthesizer
+      - fm-synthesis
+      - wavetable
+      - wav
+      - sequencer
+      - drum-machine
+      - euclidean-rhythm
+      - score
+      - chords
+      - scales
+
+  - title: Games & simulation
+    blurb: >-
+      Game-dev building blocks: ECS, AI, procedural generation, collision and
+      cellular automata.
+    topics:
+      - gamedev
+      - game-ai
+      - ecs
+      - entity-component-system
+      - roguelike
+      - dungeon-generation
+      - procedural
+      - procedural-generation
+      - bsp
+      - autotiling
+      - field-of-view
+      - shadowcasting
+      - collision-detection
+      - aabb
+      - simulation
+      - cellular-automata
+      - game-of-life
+      - wolfram
+      - behavior-tree
+      - chess
+      - fen
+      - move-generation
+      - perft
+      - sudoku
+      - puzzle
+      - animation
+      - tweening
+      - easing
+
+  - title: Concurrency, effects & systems
+    blurb: >-
+      Async runtimes, structured concurrency, effect handlers, FRP, resilience,
+      observability and distributed-systems building blocks.
+    topics:
+      - concurrency
+      - structured-concurrency
+      - async
+      - async-await
+      - event-loop
+      - scheduler
+      - futures
+      - promises
+      - channels
+      - csp
+      - select
+      - algebraic-effects
+      - effect-handlers
+      - free-monad
+      - monad
+      - applicative
+      - transducers
+      - stream-fusion
+      - stream
+      - lazy
+      - codata
+      - frp
+      - functional-reactive-programming
+      - reactive
+      - signals
+      - lenses
+      - optics
+      - prisms
+      - recursion-schemes
+      - catamorphism
+      - hylomorphism
+      - resilience
+      - circuit-breaker
+      - rate-limiter
+      - retry
+      - backoff
+      - bulkhead
+      - observability
+      - tracing
+      - traceparent
+      - spans
+      - opentelemetry
+      - otlp
+      - metrics
+      - monitoring
+      - prometheus
+      - logging
+      - structured-logging
+      - distributed-systems
+      - consensus
+      - raft
+      - leader-election
+      - log-replication
+      - state-machine
+      - crdt
+      - eventual-consistency
+      - replication
+      - pubsub
+      - messaging
+      - iot
+
+  - title: Databases & storage
+    blurb: Key-value stores, embedded databases and query engines.
+    topics:
+      - database
+      - sqlite
+      - key-value-store
+      - log-structured
+      - sstable
+      - compaction
+      - sql
+      - query-engine
+      - query-language
+      - relational
+      - spreadsheet
+      - excel
+      - xlsx
+      - ooxml
+
+  - title: GUI, terminal & application UI
+    blurb: Windowing, immediate-mode GUIs, TUIs and UI architectures.
+    topics:
+      - gui
+      - ui
+      - window
+      - desktop
+      - minifb
+      - immediate-mode
+      - immediate-mode-gui
+      - widget-toolkit
+      - widgets
+      - tui
+      - terminal
+      - ansi
+      - tea
+      - elm-architecture
+      - mvu
+      - vdom
+      - virtual-dom
+      - ssr
+      - static-site
+      - static-site-generator
+
+  - title: Text, Unicode & utilities
+    blurb: Unicode handling, date/time, configuration, randomness and IDs.
+    topics:
+      - unicode
+      - utf-8
+      - utf-16
+      - normalization
+      - text
+      - text-editing
+      - datetime
+      - date
+      - calendar
+      - duration
+      - iso-8601
+      - configuration
+      - dotenv
+      - env
+      - buffer
+      - uuid
+      - uuid-v5
+      - prng
+      - rng
+      - random
+      - splitmix
+      - splitmix64
+      - xoshiro
+      - pcg
+      - validation
+      - json-schema
+      - draft-2020-12
+      - command-line
+      - cli
+      - argument-parser
+
+  - title: Misc
+    blurb: Libraries that do not yet fit a category above.
+    topics: []
+
+# Per-repo overrides: force a repo into a named category regardless of topics.
+overrides:
+  # sml-script is a Bitcoin Script stack machine, not general dev tooling.
+  sml-script: Blockchain & cryptocurrency
+  # sml-serve is the web stack's socket adapter (currently a design doc).
+  sml-serve: Web, networking & protocols
+  # Generic `tool`/`ast`/`type-theory`/`string-matching` topics pull these into
+  # Developer tooling / Parsing by first-match; pin them where they belong.
+  sml-window: GUI, terminal & application UI
+  sml-httpc-tool: Web, networking & protocols
+  sml-graphql: Parsing & languages
+  sml-lambda: Parsing & languages
+  sml-sql: Databases & storage
+  sml-fuzzy: Algorithms
+  sml-stringalgo: Algorithms
+  # Roguelike building blocks are game-dev, not generic pathfinding.
+  sml-roguelike: Games & simulation
+  # Markov chains are a stochastic-process / numerics topic here.
+  sml-markov: Math, numeric & scientific
