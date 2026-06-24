@@ -88,7 +88,7 @@ Build tools, package managers, formatters and language servers outside this ecos
 Syntax highlighting and IDE integration.
 
 - [VS Code SML extensions](https://marketplace.visualstudio.com/search?term=standard%20ml&target=VSCode) - Syntax highlighting and (via Millet) language-server features for Standard ML in VS Code.
-- [sml-mode (Emacs)](https://elpa.nongnu.org/nongnu/sml-mode.html) - The long-standing Emacs major mode for editing SML.
+- [sml-mode (Emacs)](https://elpa.gnu.org/packages/sml-mode.html) - The long-standing Emacs major mode for editing SML.
 - [Vim/Neovim SML support](https://github.com/jez/vim-better-sml) - Improved Standard ML editing for Vim, including Merlin-style features.
 
 ## Other lists & indexes

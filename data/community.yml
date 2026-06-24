@@ -104,7 +104,7 @@ sections:
           Syntax highlighting and (via Millet) language-server features for
           Standard ML in VS Code.
       - name: sml-mode (Emacs)
-        url: https://elpa.nongnu.org/nongnu/sml-mode.html
+        url: https://elpa.gnu.org/packages/sml-mode.html
         description: The long-standing Emacs major mode for editing SML.
       - name: Vim/Neovim SML support
         url: https://github.com/jez/vim-better-sml

@@ -5,6 +5,9 @@
   "aliveStatusCodes": [200, 206, 429],
   "ignorePatterns": [
     { "pattern": "^https://creativecommons.org" },
-    { "pattern": "^https://licensebuttons.net" }
+    { "pattern": "^https://licensebuttons.net" },
+    { "pattern": "^https://mitpress.mit.edu" },
+    { "pattern": "^https://github.com/sjqtentacles/sml-sha256" },
+    { "pattern": "^https://github.com/sjqtentacles/sml-mystery" }
   ]
 }
