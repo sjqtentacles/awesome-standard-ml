@@ -21,36 +21,36 @@ The [sjqtentacles](https://github.com/sjqtentacles) Standard ML ecosystem: 6 lib
 
 ### Developer tooling
 
-Tools that operate on SML itself.
+Tools that operate on SML itself. 1 library.
 
 - [sml-lsp](https://github.com/sjqtentacles/sml-lsp) - A Language Server Protocol implementation for SML.
 
 ### Cryptography & security
 
-Hashes and ciphers.
+Hashes and ciphers. 1 library.
 
 - [sml-sha256](https://github.com/sjqtentacles/sml-sha256) - SHA-256 hashing in pure Standard ML.
 
 ### Blockchain & cryptocurrency
 
-Bitcoin and friends.
+Bitcoin and friends. 1 library.
 
 - [sml-script](https://github.com/sjqtentacles/sml-script) - A Bitcoin Script interpreter and stack machine.
 
 ### Web, networking & protocols
 
-HTTP and friends.
+HTTP and friends. 1 library.
 
 - [sml-http](https://github.com/sjqtentacles/sml-http) - A sans-IO HTTP/1.1 parser and writer.
 
 ### Data structures
 
-Containers.
+Containers. 1 library.
 
 - [sml-fenwick](https://github.com/sjqtentacles/sml-fenwick) - Fenwick (binary indexed) tree.
 
 ### Misc
 
-Not yet categorized.
+Not yet categorized. 1 library.
 
 - [sml-mystery](https://github.com/sjqtentacles/sml-mystery) - A library with no domain topics yet.

@@ -195,9 +195,14 @@ def render(community: dict, ecosystem: dict, categories_doc: dict) -> str:
         repos_in = buckets.get(title, [])
         lines.append(f"### {title}")
         lines.append("")
+        count = len(repos_in)
+        count_str = f"{count} {'library' if count == 1 else 'libraries'}."
         blurb = (cat_meta.get(title, {}).get("blurb") or "").strip()
         if blurb:
-            lines.append(blurb)
+            lines.append(f"{blurb} {count_str}")
+            lines.append("")
+        else:
+            lines.append(count_str)
             lines.append("")
         for repo in repos_in:
             lines.append(

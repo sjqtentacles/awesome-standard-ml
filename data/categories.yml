@@ -175,6 +175,24 @@ categories:
       - base58check
       - rlp
 
+  - title: Media containers & codecs
+    blurb: >-
+      Image, audio and video container formats and codec parsers: JPEG baseline
+      decoding, FLAC and Ogg framing, RIFF chunks, ISO BMFF (MP4) box scanning,
+      and Matroska/EBML header detection.
+    topics:
+      - jpeg
+      - ogg
+      - flac
+      - mp4
+      - mkv
+      - matroska
+      - webm
+      - ebml
+      - iso-bmff
+      - container-format
+      - riff
+
   - title: Encoding, serialization & compression
     blurb: >-
       Wire formats, text/binary codecs, structured-data parsers, and
@@ -868,6 +886,12 @@ categories:
       - command-line
       - cli
       - argument-parser
+      - i18n
+      - internationalization
+      - localization
+      - pluralization
+      - message-format
+      - icu
 
   - title: Misc
     blurb: Libraries that do not yet fit a category above.
@@ -900,3 +924,12 @@ overrides:
   sml-consistenthash: Concurrency, effects & systems
   # optimization topic pulls it into Math; it's a graph/network-flow algorithm.
   sml-mincostflow: Algorithms
+  # parser topic pulls ansi/vt into Parsing; they are terminal UI.
+  sml-ansi: GUI, terminal & application UI
+  sml-vt: GUI, terminal & application UI
+  # ast topic pulls sml-sh into Developer tooling; it is a shell parser.
+  sml-sh: Parsing & languages
+  # geometry topic pulls sml-mesh into Algorithms; it is 3D graphics.
+  sml-mesh: Graphics, geometry & imaging
+  # serialization topic pulls sml-email into Encoding; it is a network protocol.
+  sml-email: Web, networking & protocols
