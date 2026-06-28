@@ -503,6 +503,81 @@ categories:
       - combinations
       - enumeration
       - constants
+      # Celestial mechanics & astrodynamics
+      - celestial-mechanics
+      - coordinates
+      - precession
+      - sidereal-time
+      - orbital-mechanics
+      - astrodynamics
+      - spaceflight
+      - delta-v
+      - tle
+      - satellite
+      - norad
+      - orbital-elements
+      - moon
+      - lunar-phase
+      # Radiometry & spectroscopy
+      - planck
+      - blackbody
+      - radiometry
+      - photometry
+      - illuminance
+      - spectroscopy
+      - redshift
+      - doppler
+      - rydberg
+      # Atmosphere, weather & fluids
+      - aerospace
+      - atmosphere
+      - standard-atmosphere
+      - meteorology
+      - weather
+      - wind-chill
+      - heat-index
+      - humidex
+      - psychrometrics
+      - hvac
+      - humidity
+      - thermodynamics
+      - compressible-flow
+      - aerodynamics
+      - gas-dynamics
+      # Earth & geophysics
+      - oceanography
+      - tides
+      - harmonic-analysis
+      - geophysics
+      - seismology
+      - earthquake
+      - hydrology
+      - runoff
+      - hydraulics
+      - civil-engineering
+      - geomagnetism
+      - magnetic-declination
+      - spherical-harmonics
+      # Acoustics
+      - acoustics
+      - decibel
+      - reverberation
+      # Quantitative biology & epidemiology
+      - epidemiology
+      - sir-model
+      - seir
+      - compartmental-model
+      - rk4
+      - pharmacokinetics
+      - pharmacology
+      - compartment-model
+      - population-genetics
+      - hardy-weinberg
+      - genetics
+      # Rigorous / verified numerics
+      - interval-arithmetic
+      - numerical-computing
+      - verified-computation
 
   - title: Data structures
     blurb: >-
@@ -933,3 +1008,5 @@ overrides:
   sml-mesh: Graphics, geometry & imaging
   # serialization topic pulls sml-email into Encoding; it is a network protocol.
   sml-email: Web, networking & protocols
+  # bioinformatics topic pulls sml-popgen into IR&NLP; it is quantitative genetics.
+  sml-popgen: Math, numeric & scientific
